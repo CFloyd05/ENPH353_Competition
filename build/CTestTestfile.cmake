@@ -6,6 +6,9 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("2025_competition/adeept_awr/adeept_awr_description")
+subdirs("character_isolation")
+subdirs("character_recognition")
+subdirs("clue_board_generator")
 subdirs("2025_competition/enph353/enph353")
 subdirs("2025_competition/enph353/enph353_npcs")
 subdirs("2025_competition/robbie")

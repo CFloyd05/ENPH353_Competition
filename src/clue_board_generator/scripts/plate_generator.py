@@ -10,54 +10,32 @@ import string
 
 from random import randint
 from PIL import Image, ImageFont, ImageDraw
+NUM_OF_PLATES = 10
 
 
-def loadCrimesProfileCompetition():
-    '''
-    @brief returns a set of clues for one game and save them to plates.csv
-
-    @retval clue dictionary of the form 
-                [size:value, victim:value, ...
-                 crime:value,time:value,
-                 place:value,motive:value,
-                 weapon:value,bandit:value]
-    '''
-    URL = "https://phas.ubc.ca/~miti/ENPH353/ENPH353Clues.csv"
-
-    print("Loading clues ...")
-    response = requests.get(URL)
-
-    raw = response.text.split('\n')
-    key_list   = raw[0].split(',')
-    value_list = raw[1].split(',')
-
+def loadCrimesProfileCompetition(plates):
     clues = {}
-
-    # We will save the clues to plates.csv
-    # TODO Rename plates.csv to clues.csv
-    with open(SCRIPT_PATH + "plates.csv", 'w') as plates_file:
-        csvwriter = csv.writer(plates_file)
-
-        for (key, value) in zip(key_list, value_list):
-            clues[key] = value.upper()
-
-            # save it to plates
-            csvwriter.writerow([key, value.upper()])
-
+    for i in range (plates):
+        upperClue = ''
+        lowerClue = ''
+        for j in range (0,6):
+            upperClue += (random.choice(string.ascii_uppercase + string.digits))
+        for j in range (0, 12):
+            lowerClue += (random.choice(string.ascii_uppercase + string.digits))
+        clues[upperClue] = lowerClue
     return clues
 
 # Find the path to this script
 SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__)) + "/"
-TEXTURE_PATH = '../media/materials/textures/'
+TEXTURE_PATH = 'images/'
 
 banner_canvas = cv2.imread(SCRIPT_PATH+'clue_banner.png')
 PLATE_HEIGHT = 600
 PLATE_WIDTH = banner_canvas.shape[1]
 IMG_DEPTH = 3
 
-clues = loadCrimesProfileCompetition()
+clues = loadCrimesProfileCompetition(NUM_OF_PLATES)
 
-i = 0
 for key, value in clues.items():
     entry = key + "," + value
     print(entry)
@@ -80,8 +58,5 @@ for key, value in clues.items():
     populated_banner = np.array(blank_plate_pil)
 
     # Save image
-    cv2.imwrite(os.path.join(SCRIPT_PATH+TEXTURE_PATH+"unlabelled/",
-                                "plate_" + str(i) + ".png"), populated_banner)
-    i += 1
-
+    cv2.imwrite(os.path.join(SCRIPT_PATH+TEXTURE_PATH,key + value + ".png"), populated_banner)
 
