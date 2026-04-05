@@ -58,6 +58,7 @@ all: 2025_competition/adeept_awr/adeept_awr_description/all
 all: character_isolation/all
 all: character_recognition/all
 all: clue_board_generator/all
+all: clueboard_detection/all
 all: 2025_competition/enph353/enph353/all
 all: 2025_competition/enph353/enph353_npcs/all
 all: 2025_competition/robbie/all
@@ -74,6 +75,7 @@ preinstall: 2025_competition/adeept_awr/adeept_awr_description/preinstall
 preinstall: character_isolation/preinstall
 preinstall: character_recognition/preinstall
 preinstall: clue_board_generator/preinstall
+preinstall: clueboard_detection/preinstall
 preinstall: 2025_competition/enph353/enph353/preinstall
 preinstall: 2025_competition/enph353/enph353_npcs/preinstall
 preinstall: 2025_competition/robbie/preinstall
@@ -95,6 +97,7 @@ clean: 2025_competition/adeept_awr/adeept_awr_description/clean
 clean: character_isolation/clean
 clean: character_recognition/clean
 clean: clue_board_generator/clean
+clean: clueboard_detection/clean
 clean: 2025_competition/enph353/enph353/clean
 clean: 2025_competition/enph353/enph353_npcs/clean
 clean: 2025_competition/robbie/clean
@@ -374,6 +377,24 @@ clue_board_generator/preinstall:
 clue_board_generator/clean:
 
 .PHONY : clue_board_generator/clean
+
+#=============================================================================
+# Directory level rules for directory clueboard_detection
+
+# Recursive "all" directory target.
+clueboard_detection/all:
+
+.PHONY : clueboard_detection/all
+
+# Recursive "preinstall" directory target.
+clueboard_detection/preinstall:
+
+.PHONY : clueboard_detection/preinstall
+
+# Recursive "clean" directory target.
+clueboard_detection/clean:
+
+.PHONY : clueboard_detection/clean
 
 #=============================================================================
 # Directory level rules for directory gtest

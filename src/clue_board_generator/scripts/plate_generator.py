@@ -10,7 +10,7 @@ import string
 
 from random import randint
 from PIL import Image, ImageFont, ImageDraw
-NUM_OF_PLATES = 10
+NUM_OF_PLATES = 1000
 
 
 def loadCrimesProfileCompetition(plates):
@@ -19,9 +19,9 @@ def loadCrimesProfileCompetition(plates):
         upperClue = ''
         lowerClue = ''
         for j in range (0,6):
-            upperClue += (random.choice(string.ascii_uppercase + string.digits))
+            upperClue += (random.choice(string.ascii_uppercase + string.digits + " "))
         for j in range (0, 12):
-            lowerClue += (random.choice(string.ascii_uppercase + string.digits))
+            lowerClue += (random.choice(string.ascii_uppercase + string.digits + " "))
         clues[upperClue] = lowerClue
     return clues
 

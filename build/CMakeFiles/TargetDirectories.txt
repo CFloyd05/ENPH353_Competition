@@ -64,6 +64,13 @@
 /home/fizzer/ros_ws/build/clue_board_generator/CMakeFiles/rebuild_cache.dir
 /home/fizzer/ros_ws/build/clue_board_generator/CMakeFiles/edit_cache.dir
 /home/fizzer/ros_ws/build/clue_board_generator/CMakeFiles/test.dir
+/home/fizzer/ros_ws/build/clueboard_detection/CMakeFiles/install/strip.dir
+/home/fizzer/ros_ws/build/clueboard_detection/CMakeFiles/install/local.dir
+/home/fizzer/ros_ws/build/clueboard_detection/CMakeFiles/install.dir
+/home/fizzer/ros_ws/build/clueboard_detection/CMakeFiles/list_install_components.dir
+/home/fizzer/ros_ws/build/clueboard_detection/CMakeFiles/rebuild_cache.dir
+/home/fizzer/ros_ws/build/clueboard_detection/CMakeFiles/edit_cache.dir
+/home/fizzer/ros_ws/build/clueboard_detection/CMakeFiles/test.dir
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353/CMakeFiles/install/strip.dir
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353/CMakeFiles/install/local.dir
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353/CMakeFiles/install.dir
