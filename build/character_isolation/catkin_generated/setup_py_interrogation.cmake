@@ -1,0 +1,7 @@
+set(character_isolation_SETUP_PY_SETUP_MODULE "distutils.core")
+set(character_isolation_SETUP_PY_VERSION "0.0.0")
+set(character_isolation_SETUP_PY_SCRIPTS "")
+set(character_isolation_SETUP_PY_PACKAGES "character_isolation")
+set(character_isolation_SETUP_PY_PACKAGE_DIRS "src/character_isolation")
+set(character_isolation_SETUP_PY_MODULES "")
+set(character_isolation_SETUP_PY_MODULE_DIRS "")

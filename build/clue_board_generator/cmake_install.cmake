@@ -52,3 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clue_board_generator" TYPE FILE FILES "/home/fizzer/ros_ws/src/clue_board_generator/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/fizzer/ros_ws/build/clue_board_generator/catkin_generated/safe_execute_install.cmake")
+endif()
+
