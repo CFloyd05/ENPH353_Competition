@@ -273,8 +273,8 @@
       <camera name="head">
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
-          <height>800</height>
+          <width>1400</width>
+          <height>1400</height>
           <format>R8G8B8</format>
         </image>
         <clip>
@@ -313,8 +313,8 @@
       <camera name="head">
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
-          <height>800</height>
+          <width>1400</width>
+          <height>1400</height>
           <format>R8G8B8</format>
         </image>
         <clip>
@@ -351,10 +351,10 @@
     <sensor type="camera" name="cameraLeft">
       <update_rate>30.0</update_rate>
       <camera name="head">
-        <horizontal_fov>1.3962634</horizontal_fov>
+        <horizontal_fov>0.3</horizontal_fov>
         <image>
-          <width>800</width>
-          <height>800</height>
+          <width>1400</width>
+          <height>1400</height>
           <format>R8G8B8</format>
         </image>
         <clip>
@@ -391,10 +391,10 @@
     <sensor type="camera" name="cameraRight">
       <update_rate>30.0</update_rate>
       <camera name="head">
-        <horizontal_fov>1.3962634</horizontal_fov>
+        <horizontal_fov>0.8</horizontal_fov>
         <image>
-          <width>800</width>
-          <height>800</height>
+          <width>1400</width>
+          <height>1400</height>
           <format>R8G8B8</format>
         </image>
         <clip>
