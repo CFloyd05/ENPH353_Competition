@@ -3,12 +3,10 @@
 import rospy
 from geometry_msgs.msg import Twist
 from std_msgs.msg import String
+from gazebo_msgs.msg import ModelState
+from gazebo_msgs.srv import SetModelState
 
-rospy.init_node('topic_publisher')
-sub = rospy.Subscriber('clue_publish_updates', String, clue_publish_callback, queue_size=1)
-pub_vel = rospy.Publisher('/B1/cmd_vel', Twist, queue_size=1)
-pub_clue = rospy.Publisher('/score_tracker', String, queue_size=1)
-pub_camera = rospy.Publisher('/camera_to_read', String, queue_size=1)
+rospy.init_node('drive_statemachine_controller')
 
 move = Twist()
 clue = String()
@@ -17,7 +15,7 @@ DRIVE_SPEED = 3
 START_POSITION = [5.5, 2.4, 0.05, 0, 0, -0.7071, 0.7071] #yaw = -pi/2
 LINE_1 = [0.5, -0.1, 0.05, 0, 0, 0.7071, 0.7071] #yaw = pi/2
 LINE_2 = [-3.85, 0.45, 0.05, 0, 0, 1, 0] # yaw = pi
-LINE 3 = [-4.1, -2.3, 0.05, 0, 0, 0, 1] #yaw = 0
+LINE_3 = [-4.1, -2.3, 0.05, 0, 0, 0, 1] #yaw = 0
 rate = rospy.Rate(10)
 
 
@@ -58,7 +56,7 @@ def stop():
   move.angular.x = 0
   move.angular.y = 0
   move.angular.z = 0
-  pub_move.publish(move)
+  pub_vel.publish(move)
 
 def drive_forward(speed):
   move.linear.x = speed
@@ -67,9 +65,9 @@ def drive_forward(speed):
   move.angular.x = 0
   move.angular.y = 0
   move.angular.z = 0
-  pub_move.publish(move)
+  pub_vel.publish(move)
 
-def set_position(self, position):
+def set_position(position):
         msg = ModelState()
         msg.model_name = 'B1'
 
@@ -89,6 +87,7 @@ def set_position(self, position):
         except rospy.ServiceException:
             print ("Service call failed")
 
+
 # State machine overview
 #
 # State 1: start timer
@@ -107,6 +106,11 @@ def set_position(self, position):
 
 
 # Pre-state machine startup
+sub = rospy.Subscriber('clue_publish_updates', String, clue_publish_callback, queue_size=1)
+pub_vel = rospy.Publisher('/B1/cmd_vel', Twist, queue_size=1)
+pub_clue = rospy.Publisher('/score_tracker', String, queue_size=1)
+pub_camera = rospy.Publisher('/camera_to_read', String, queue_size=1)
+
 set_position(START_POSITION)
 print("Entering State 1")
 state1_start_time = rospy.Time.now()
@@ -117,7 +121,7 @@ while not rospy.is_shutdown():
 
   # State 1: Startup
   # Exit: One loop completed (state 2)
-  if state = 1:
+  if state == 1:
     stop()
     pub_camera.publish('front')
 
@@ -131,7 +135,7 @@ while not rospy.is_shutdown():
 
   # State 2: Read first clue
   # Exit: First clue published to score tracker (state 3) || 5 seconds passed (state 3)
-  if state = 2:
+  if state == 2:
     stop()
     pub_camera.publish('front')
     elapsed = rospy.Time.now() - state2_start_time
@@ -144,7 +148,7 @@ while not rospy.is_shutdown():
 
   # State 3: Drive forward and read second clue
   # Exit: Second clue published to score tracker (state 4) || 10 seconds passed (state 5)
-  if state = 3:
+  if state == 3:
     drive_forward(DRIVE_SPEED)
     pub_camera.publish('front')
     elapsed = rospy.Time.now() - state3_start_time
@@ -157,7 +161,7 @@ while not rospy.is_shutdown():
 
   # State 4: Drive forward and read third clue on right
   # Exit: Third clue published to score tracker (state 5) || 10 seconds passed (state 5)
-  if state = 4:
+  if state == 4:
     drive_forward(DRIVE_SPEED)
     pub_camera.publish('right')
     elapsed = rospy.Time.now() - state4_start_time
@@ -170,7 +174,7 @@ while not rospy.is_shutdown():
 
   # State 5: Teleport to first line
   # Exit: One loop completed (State 6)
-  if state = 5:
+  if state == 5:
     stop()
     set_position(LINE_1)
     print("Teleported to first line: Entering state 6")
@@ -180,7 +184,7 @@ while not rospy.is_shutdown():
 
   # State 6: Drive backwards and read fourth clue
   # Exit: Fourth clue published to score tracker (state 7) || 6 seconds passed (state 7)
-  if state = 6:
+  if state == 6:
     drive_forward(-DRIVE_SPEED)
     pub_camera.publish('front')
     elapsed = rospy.Time.now() - state6_start_time
@@ -193,7 +197,7 @@ while not rospy.is_shutdown():
 
   # State 7: Drive forwards and read sixth clue on left
   # Exit: Sixth clue published to score tracker (state 8) || 15 seconds passed (state 8)
-  if state = 7:
+  if state == 7:
     drive_forward(DRIVE_SPEED)
     pub_camera.publish('left')
     elapsed = rospy.Time.now() - state7_start_time
@@ -206,7 +210,7 @@ while not rospy.is_shutdown():
 
   # State 8: Drive forwards and read fifth clue behind
   # Exit: Fifth clue published to score tracker (state 9) || 10 seconds passed (state 9)
-  if state = 8:
+  if state == 8:
     drive_forward(DRIVE_SPEED)
     pub_camera.publish('rear')
     elapsed = rospy.Time.now() - state7_start_time
@@ -219,7 +223,7 @@ while not rospy.is_shutdown():
 
   # State 9: Teloport to tunnel
   # Exit: One loop completed (State 10)
-  if state = 9:
+  if state == 9:
     stop()
     set_position(LINE_3)
     print("Teleported to tunnel: Entering state 10")
@@ -229,8 +233,8 @@ while not rospy.is_shutdown():
 
   # State 10: Drive backwards and read seventh sign
   # Exit: Seventh clue published to score tracker (state 88) || 5 seconds passed (state 88)
-  if state = 10:
-    drive_forwards(DRIVE_SPEED)
+  if state == 10:
+    drive_forward(DRIVE_SPEED)
     pub_camera.publish('front')
     elapsed = rospy.Time.now() - state7_start_time
 
@@ -242,14 +246,14 @@ while not rospy.is_shutdown():
 
   # State 88: Stop robot and timer
   # Exit: none
-  if state = 88:
+  if state == 88:
     stop()
     pub.clue.publish('AIZCF,beans,-1,letzstop')
     state = 0
 
 
   # State 99: Reset robot from beginning
-  if state = 99:
+  if state == 99:
     stop()
     pub_camera.publish('front')
     set_position(START_POSITION)
