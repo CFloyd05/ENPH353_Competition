@@ -1,0 +1,7 @@
+set(clue_board_generator_SETUP_PY_SETUP_MODULE "distutils.core")
+set(clue_board_generator_SETUP_PY_VERSION "0.0.0")
+set(clue_board_generator_SETUP_PY_SCRIPTS "")
+set(clue_board_generator_SETUP_PY_PACKAGES "clue_board_generator")
+set(clue_board_generator_SETUP_PY_PACKAGE_DIRS "src/clue_board_generator")
+set(clue_board_generator_SETUP_PY_MODULES "")
+set(clue_board_generator_SETUP_PY_MODULE_DIRS "")
