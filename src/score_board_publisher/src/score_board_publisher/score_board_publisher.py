@@ -30,8 +30,10 @@ def publish_clue(clue_type,clue_value)
   elif clue_location = 'BANDIT'
     clue_location = 8
   else
-    print('Clue read bad, womp womp')
+    print("Clue read bad, womp womp")
+    return("Bad clue read")
 
-  clue = ('AIZCF', beans, clue_location, clue_value)
+  clue = ("AIZCF", "beans", clue_location, clue_value)
   pub.publish(clue)
   pub_for_state(clue_location)
+  return("Good clue read")
