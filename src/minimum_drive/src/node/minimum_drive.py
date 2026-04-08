@@ -11,7 +11,7 @@ rospy.init_node('drive_statemachine_controller')
 move = Twist()
 clue = String()
 camera = String()
-DRIVE_SPEED = 3
+DRIVE_SPEED = 2
 START_POSITION = [5.5, 2.4, 0.05, 0, 0, -0.7071, 0.7071] #yaw = -pi/2
 LINE_1 = [0.5, -0.1, 0.05, 0, 0, 0.7071, 0.7071] #yaw = pi/2
 LINE_2 = [-3.85, 0.45, 0.05, 0, 0, 1, 0] # yaw = pi
@@ -22,21 +22,19 @@ rate = rospy.Rate(10)
 def clue_publish_callback(clue_input):
   clue = clue_input.data()
   if clue == 1:
-    print("Clue 1 found: Entering State 3")
-    state3_start_time = rospy.Time.now()
-    state = 3
+    print("Clue 1 found")
+    if state == 2:
+      print("Entering State 3")
+      state3_start_time = rospy.Time.now()
+      state = 3
   elif clue == 2:
-    print("Clue 2 found: Entering State 4")
-    state4_start_time = rospy.Time.now()
-    state = 4
+    print("Clue 2 found")
   elif clue == 3:
     print("Clue 3 found: Entering State 5")
     state5_start_time = rospy.Time.now()
     state = 5
   elif clue == 4:
-    print("Clue 4 found: Entering State 7")
-    state7_start_time = rospy.Time.now()
-    state = 7
+    print("Clue 4 found")
   elif clue == 5:
     print("Clue 5 found: Entering State 9")
     state9_start_time = rospy.Time.now()
@@ -113,6 +111,7 @@ pub_vel = rospy.Publisher('/B1/cmd_vel', Twist, queue_size=1)
 pub_clue = rospy.Publisher('/score_tracker', String, queue_size=1)
 pub_camera = rospy.Publisher('/camera_to_read', String, queue_size=1)
 
+stop()
 set_position(START_POSITION)
 print("Entering State 1")
 state1_start_time = rospy.Time.now()
@@ -136,40 +135,49 @@ while not rospy.is_shutdown():
 
 
   # State 2: Read first clue
-  # Exit: First clue published to score tracker (state 3) || 5 seconds passed (state 3)
+  # Exit: First clue published to score tracker (state 3) || 3 seconds passed (state 3)
   if state == 2:
     stop()
     pub_camera.publish('front')
     elapsed = rospy.Time.now() - state2_start_time
 
-    if elapsed.to_sec() > 5:
+    if elapsed.to_sec() > 3:
       print("Clue 1 not found: Entering state 3")
       state3_start_time = rospy.Time.now()
       state = 3
 
 
   # State 3: Drive forward and read second clue
-  # Exit: Second clue published to score tracker (state 4) || 10 seconds passed (state 5)
+  # Exit: Second clue published to score tracker (state 4) || 4.9 seconds passed (state 4)
   if state == 3:
-    drive_forward(DRIVE_SPEED)
     pub_camera.publish('front')
     elapsed = rospy.Time.now() - state3_start_time
 
-    if elapsed.to_sec() > 10:
-      print("Clue 2 not found: Entering state 5")
-      state5_start_time = rospy.Time.now()
-      state = 5
+    if elapsed.to_sec() < 4:
+      drive_forward(DRIVE_SPEED)
+    else:
+      stop()
+
+    if elapsed.to_sec() > 4.9:
+      print("Entering state 4")
+      state4_start_time = rospy.Time.now()
+      state = 4
 
 
   # State 4: Drive forward and read third clue on right
-  # Exit: Third clue published to score tracker (state 5) || 10 seconds passed (state 5)
+  # Exit: Third clue published to score tracker (state 5) || 6.3 seconds passed in state 3 and 4 (state 5)
   if state == 4:
     drive_forward(DRIVE_SPEED)
     pub_camera.publish('right')
     elapsed = rospy.Time.now() - state4_start_time
 
-    if elapsed.to_sec() > 10:
-      print("Clue 2 not found: Entering state 5")
+    if elapsed.to_sec() < 1.2:
+      drive_forward(DRIVE_SPEED)
+    else:
+      stop()
+
+    if elapsed.to_sec() > 4:
+      print("Clue 3 not found: Entering state 5")
       state5_start_time = rospy.Time.now()
       state = 5
 
@@ -185,39 +193,48 @@ while not rospy.is_shutdown():
 
 
   # State 6: Drive backwards and read fourth clue
-  # Exit: Fourth clue published to score tracker (state 7) || 6 seconds passed (state 7)
+  # Exit: 3.5 seconds passed (state 7)
   if state == 6:
-    drive_forward(-DRIVE_SPEED)
     pub_camera.publish('front')
     elapsed = rospy.Time.now() - state6_start_time
 
-    if elapsed.to_sec() > 10:
-      print("Clue 4 not found: Entering state 7")
+    if elapsed.to_sec() < 1.5:
+      drive_forward(-DRIVE_SPEED)
+    else:
+      stop()
+
+    if elapsed.to_sec() > 3.5:
+      print("Entering state 7")
       state7_start_time = rospy.Time.now()
       state = 7
 
 
   # State 7: Drive forwards and read sixth clue on left
-  # Exit: Sixth clue published to score tracker (state 8) || 15 seconds passed (state 8)
+  # Exit: Sixth clue published to score tracker (state 8) || 4 seconds passed (state 8)
   if state == 7:
     drive_forward(DRIVE_SPEED)
     pub_camera.publish('left')
     elapsed = rospy.Time.now() - state7_start_time
 
-    if elapsed.to_sec() > 15:
+    if elapsed.to_sec() > 4.2:
       print("Clue 6 not found: Entering state 8")
       state8_start_time = rospy.Time.now()
       state = 8
 
 
   # State 8: Drive forwards and read fifth clue behind
-  # Exit: Fifth clue published to score tracker (state 9) || 10 seconds passed (state 9)
+  # Exit: Fifth clue published to score tracker (state 9) || 6.5 seconds passed in state 7 and 8 (state 9)
   if state == 8:
-    drive_forward(DRIVE_SPEED)
     pub_camera.publish('rear')
-    elapsed = rospy.Time.now() - state7_start_time
+    elapsed = rospy.Time.now() - state8_start_time
+    state7_8_elapsed = rospy.Time.now() - state7_start_time
 
-    if elapsed.to_sec() > 10:
+    if state7_8_elapsed.to_sec() < 4.9:
+      drive_forward(DRIVE_SPEED)
+    else:
+      stop()
+
+    if state7_8_elapsed.to_sec() > 6.5:
       print("Clue 5 not found: Entering state 9")
       state9_start_time = rospy.Time.now()
       state = 9
@@ -236,11 +253,17 @@ while not rospy.is_shutdown():
   # State 10: Drive backwards and read seventh sign
   # Exit: Seventh clue published to score tracker (state 88) || 5 seconds passed (state 88)
   if state == 10:
-    drive_forward(-DRIVE_SPEED)
     pub_camera.publish('front')
     elapsed = rospy.Time.now() - state10_start_time
 
-    if elapsed.to_sec() > 10:
+    if elapsed.to_sec() < 0.5:
+      move.angular.z = 2
+      pub_vel.publish(move)
+      #drive_forward(-DRIVE_SPEED)
+    else:
+      stop()
+
+    if elapsed.to_sec() > 5:
       print("Clue 7 not found: Entering state 88")
       state88_start_time = rospy.Time.now()
       state = 88
