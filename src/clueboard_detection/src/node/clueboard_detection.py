@@ -2,12 +2,14 @@ import cv2 as cv
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
-import os
 
 import rospy
 from std_msgs.msg import Bool
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
+# Connor's character recognition
+# from call_nn import read_board
+
 
 class ClueboardFinder:
 
@@ -18,7 +20,7 @@ class ClueboardFinder:
         self.pub = rospy.Publisher('/clueboard', Bool, queue_size=1)
         self.rate = rospy.Rate(2)
 
-        self.subscriber = rospy.Subscriber("/B1/rrbot/camera1/image_raw", Image, self.image_callback)
+        self.subscriber = rospy.Subscriber("/B1/rrbot/cameraFront/image_raw_front", Image, self.image_callback)
 
         self.bridge = CvBridge()
 
@@ -46,7 +48,7 @@ class ClueboardFinder:
             self.frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding= "bgr8")
 
 
-            self.cropstart = self.frame.shape[0] // 3 * 2
+            self.cropstart = self.frame.shape[0] // self.screenfraction
             self.cropend = self.frame.shape[0]
 
         # Increment the frame count
@@ -71,6 +73,8 @@ class ClueboardFinder:
 
             self.changeClueboard()
 
+            self.perspectiveTransform()
+
 
 
         # Update the clueboard thing
@@ -86,7 +90,7 @@ class ClueboardFinder:
         hsv_image = cv.cvtColor(self.frame, cv.COLOR_BGR2HSV)
 
         # Define blue color range in HSV
-        lower_blue_hsv = np.array([90, 50, 50])
+        lower_blue_hsv = np.array([90, 100, 50]) # Increased lower-bound saturation to eliminate false alarms from water
         upper_blue_hsv = np.array([130, 255, 255])
 
         # Filter for only blue stuff using HSV
@@ -99,7 +103,10 @@ class ClueboardFinder:
         #   plt.show()
 
         imgray = cv.cvtColor(blue_only, cv.COLOR_BGR2GRAY)
-        ret, thresh = cv.threshold(imgray, 150, 255, cv.THRESH_TOZERO_INV)
+        ret, thresh = cv.threshold(imgray, 130, 255, cv.THRESH_TOZERO_INV)
+
+        # plt.imshow(thresh, cmap='gray')
+        # plt.show()
 
         # Detect contours
         contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
@@ -113,28 +120,90 @@ class ClueboardFinder:
         return contours
 
     def FilterContoursByArea(self):
-        # Filter contours by area to ignore small noise and the sky (big)
-        min_contour_area = 400 # adjust this value as needed
-        max_contour_area = 4000 # adjust this value as needed - not in use right now
-
+        min_area = 600
+        # max_area = 100000 # Increased this a bit to be safe
         filtered_contours = []
+
         for contour in self.contours:
             area = cv.contourArea(contour)
-            if area > min_contour_area:
-                filtered_contours.append(contour)
+            
+            # 1. Area Filter
+            if min_area < area:
+                # 2. Shape Filter (Aspect Ratio)
+                x, y, w, h = cv.boundingRect(contour)
+                aspect_ratio = float(w) / h
+                
+                if 0.4 < aspect_ratio < 2.5: # Adjust based on sign shape
+                    filtered_contours.append(contour)
 
-        #   print(f"Original number of contours: {len(contours)}")
-        #   print(f"Number of contours after filtering: {len(filtered_contours)}")
+        # # Draw for debugging
+        # filteredcontourimg = self.frame.copy()
+        # cv.drawContours(filteredcontourimg, filtered_contours, -1, (0, 255, 0), 2) # Thickness 2 makes it easier to see
 
-        # Draw filtered contours on the original image
-        filteredcontourimg = self.frame.copy()
-        filteredcontourimg = cv.drawContours(filteredcontourimg, filtered_contours, -1, (0, 255, 0), 1)
-
-        #   plt.imshow(cv.cvtColor(filteredcontourimg, cv.COLOR_BGR2RGB))
-        #   plt.title(f'Filtered Contours (Area > {min_contour_area})')
-        #   plt.show()
-
+        # plt.imshow(cv.cvtColor(filteredcontourimg, cv.COLOR_BGR2RGB))
+        # plt.show()
+        
         return filtered_contours
+    
+        
+    def perspectiveTransform(self):
+
+        numberofcontours = len(self.filtered_contours)
+        
+
+        if numberofcontours > 1:
+
+            # print(len(self.filtered_contours))
+            
+            desiredcontour = numberofcontours-1
+
+            
+            perimeter = cv.arcLength(self.filtered_contours[desiredcontour], True)
+            vertices = cv.approxPolyDP(self.filtered_contours[desiredcontour], 0.02*perimeter, True)
+            ordered_vertices = self.order_points_for_perspective_transform(vertices.reshape(-1, 2).astype(np.float32)) # Reshape to match reference vertices and sort just to be safe
+
+            referenceVertices_raw = np.array([[0,0], [834,0],[834,544],[0,544]], dtype=np.float32) # adjusted reference vertices
+            ordered_referenceVertices = self.order_points_for_perspective_transform(referenceVertices_raw)
+
+            # Test that we can find the corners
+            parallelogram = cv.polylines(self.frame.copy(), vertices, True, (0, 255, 0), 3)
+
+            # # Display the image with the drawn parallelogram
+            # plt.imshow(cv.cvtColor(parallelogram, cv.COLOR_BGR2RGB))
+            # plt.show()
+
+            if len(ordered_vertices) == 4: # Check if we have 4 vertices to perform perspective transform
+                M = cv.getPerspectiveTransform(ordered_vertices, ordered_referenceVertices)
+
+                self.transformedImg = cv.warpPerspective(self.frame.copy(),M,(834,544))
+
+                # plt.imshow(cv.cvtColor(self.transformedImg, cv.COLOR_BGR2RGB))
+                # plt.show()
+
+        
+
+    def order_points_for_perspective_transform(self, pts):
+        # the first entry in the list is the top-left,
+        # the second entry is the top-right, the third is the
+        # bottom-right, and the fourth is the bottom-left
+        rect = np.zeros((4, 2), dtype = "float32")
+
+        # the top-left point will have the smallest sum, whereas
+        # the bottom-right point will have the largest sum
+        s = pts.sum(axis = 1)
+        rect[0] = pts[np.argmin(s)]
+        rect[2] = pts[np.argmax(s)]
+
+        # now, compute the difference between the points, the
+        # top-right point will have the smallest difference,
+        # whereas the bottom-left will have the largest difference
+        diff = np.diff(pts, axis = 1)
+        rect[1] = pts[np.argmin(diff)]
+        rect[3] = pts[np.argmax(diff)]
+
+        # return the ordered coordinates
+        return rect
+
     
     def changeClueboard(self):
         
