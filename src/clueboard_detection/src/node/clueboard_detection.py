@@ -99,7 +99,7 @@ class ClueboardFinder:
         #   plt.show()
 
         imgray = cv.cvtColor(blue_only, cv.COLOR_BGR2GRAY)
-        _, thresh = cv.threshold(imgray, 0, 255, 0)
+        ret, thresh = cv.threshold(imgray, 150, 255, cv.THRESH_TOZERO_INV)
 
         # Detect contours
         contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
@@ -115,7 +115,7 @@ class ClueboardFinder:
     def FilterContoursByArea(self):
         # Filter contours by area to ignore small noise and the sky (big)
         min_contour_area = 400 # adjust this value as needed
-        max_contour_area = 4000 # adjust this value as needed
+        max_contour_area = 4000 # adjust this value as needed - not in use right now
 
         filtered_contours = []
         for contour in self.contours:
