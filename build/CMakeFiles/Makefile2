@@ -61,7 +61,9 @@ all: clue_board_generator/all
 all: clueboard_detection/all
 all: 2025_competition/enph353/enph353/all
 all: 2025_competition/enph353/enph353_npcs/all
+all: minimum_drive/all
 all: 2025_competition/robbie/all
+all: score_board_publisher/all
 all: 2025_competition/enph353/enph353_utils/all
 all: time_trial_min/all
 all: 2025_competition/adeept_awr/adeept_awr_gazebo/all
@@ -78,7 +80,9 @@ preinstall: clue_board_generator/preinstall
 preinstall: clueboard_detection/preinstall
 preinstall: 2025_competition/enph353/enph353/preinstall
 preinstall: 2025_competition/enph353/enph353_npcs/preinstall
+preinstall: minimum_drive/preinstall
 preinstall: 2025_competition/robbie/preinstall
+preinstall: score_board_publisher/preinstall
 preinstall: 2025_competition/enph353/enph353_utils/preinstall
 preinstall: time_trial_min/preinstall
 preinstall: 2025_competition/adeept_awr/adeept_awr_gazebo/preinstall
@@ -100,7 +104,9 @@ clean: clue_board_generator/clean
 clean: clueboard_detection/clean
 clean: 2025_competition/enph353/enph353/clean
 clean: 2025_competition/enph353/enph353_npcs/clean
+clean: minimum_drive/clean
 clean: 2025_competition/robbie/clean
+clean: score_board_publisher/clean
 clean: 2025_competition/enph353/enph353_utils/clean
 clean: time_trial_min/clean
 clean: 2025_competition/adeept_awr/adeept_awr_gazebo/clean
@@ -452,6 +458,42 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest_main.dir/clean
 gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 
 .PHONY : gtest/googletest/clean
+
+#=============================================================================
+# Directory level rules for directory minimum_drive
+
+# Recursive "all" directory target.
+minimum_drive/all:
+
+.PHONY : minimum_drive/all
+
+# Recursive "preinstall" directory target.
+minimum_drive/preinstall:
+
+.PHONY : minimum_drive/preinstall
+
+# Recursive "clean" directory target.
+minimum_drive/clean:
+
+.PHONY : minimum_drive/clean
+
+#=============================================================================
+# Directory level rules for directory score_board_publisher
+
+# Recursive "all" directory target.
+score_board_publisher/all:
+
+.PHONY : score_board_publisher/all
+
+# Recursive "preinstall" directory target.
+score_board_publisher/preinstall:
+
+.PHONY : score_board_publisher/preinstall
+
+# Recursive "clean" directory target.
+score_board_publisher/clean:
+
+.PHONY : score_board_publisher/clean
 
 #=============================================================================
 # Directory level rules for directory time_trial_min

@@ -85,6 +85,13 @@
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353_npcs/CMakeFiles/rebuild_cache.dir
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353_npcs/CMakeFiles/edit_cache.dir
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353_npcs/CMakeFiles/test.dir
+/home/fizzer/ros_ws/build/minimum_drive/CMakeFiles/install/strip.dir
+/home/fizzer/ros_ws/build/minimum_drive/CMakeFiles/install/local.dir
+/home/fizzer/ros_ws/build/minimum_drive/CMakeFiles/install.dir
+/home/fizzer/ros_ws/build/minimum_drive/CMakeFiles/list_install_components.dir
+/home/fizzer/ros_ws/build/minimum_drive/CMakeFiles/rebuild_cache.dir
+/home/fizzer/ros_ws/build/minimum_drive/CMakeFiles/edit_cache.dir
+/home/fizzer/ros_ws/build/minimum_drive/CMakeFiles/test.dir
 /home/fizzer/ros_ws/build/2025_competition/robbie/CMakeFiles/install/strip.dir
 /home/fizzer/ros_ws/build/2025_competition/robbie/CMakeFiles/install/local.dir
 /home/fizzer/ros_ws/build/2025_competition/robbie/CMakeFiles/install.dir
@@ -92,6 +99,13 @@
 /home/fizzer/ros_ws/build/2025_competition/robbie/CMakeFiles/rebuild_cache.dir
 /home/fizzer/ros_ws/build/2025_competition/robbie/CMakeFiles/edit_cache.dir
 /home/fizzer/ros_ws/build/2025_competition/robbie/CMakeFiles/test.dir
+/home/fizzer/ros_ws/build/score_board_publisher/CMakeFiles/install/strip.dir
+/home/fizzer/ros_ws/build/score_board_publisher/CMakeFiles/install/local.dir
+/home/fizzer/ros_ws/build/score_board_publisher/CMakeFiles/install.dir
+/home/fizzer/ros_ws/build/score_board_publisher/CMakeFiles/list_install_components.dir
+/home/fizzer/ros_ws/build/score_board_publisher/CMakeFiles/rebuild_cache.dir
+/home/fizzer/ros_ws/build/score_board_publisher/CMakeFiles/edit_cache.dir
+/home/fizzer/ros_ws/build/score_board_publisher/CMakeFiles/test.dir
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353_utils/CMakeFiles/install/strip.dir
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353_utils/CMakeFiles/install/local.dir
 /home/fizzer/ros_ws/build/2025_competition/enph353/enph353_utils/CMakeFiles/install.dir

@@ -1,0 +1,8 @@
+prefix=/home/fizzer/ros_ws/install
+
+Name: score_board_publisher
+Description: Description of score_board_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

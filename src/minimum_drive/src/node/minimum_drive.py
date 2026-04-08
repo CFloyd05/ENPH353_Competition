@@ -100,6 +100,7 @@ def set_position(position):
 # State 8: drive forward, read fifth sign behind
 # State 9: teleport to tunnel
 # State 10: drive back and read seventh sign
+# State 11: line-follow up mountain
 #
 # State 88: end timer
 # State 99: restart from state 1
