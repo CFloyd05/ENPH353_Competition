@@ -8,7 +8,7 @@ from character_isolation.isolate_chars import isolate_chars_runtime
 chars = string.ascii_uppercase + string.digits + " "
 
 # Load the TFLite model
-interpreter = tf.lite.Interpreter(model_path="conv_model.tflite")
+interpreter = tf.lite.Interpreter(model_path="/home/fizzer/ros_ws/src/character_recognition/src/character_recognition/conv_model.tflite")
 
 # Allocate tensors (necessary to prepare the interpreter for inference)
 interpreter.allocate_tensors()

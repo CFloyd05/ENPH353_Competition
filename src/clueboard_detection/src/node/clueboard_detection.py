@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import cv2 as cv
 import numpy as np
 import matplotlib
@@ -8,7 +10,7 @@ from std_msgs.msg import Bool
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
 # Connor's character recognition
-# from call_nn import read_board
+from character_recognition.call_nn import read_board
 
 
 class ClueboardFinder:
@@ -16,7 +18,7 @@ class ClueboardFinder:
     def __init__(self):
 
         rospy.loginfo("initiating")
-    
+
         self.pub = rospy.Publisher('/clueboard', Bool, queue_size=1)
         self.rate = rospy.Rate(2)
 
