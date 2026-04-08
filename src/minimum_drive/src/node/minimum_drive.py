@@ -249,7 +249,7 @@ while not rospy.is_shutdown():
   # Exit: none
   if state == 88:
     stop()
-    pub.clue.publish('AIZCF,beans,-1,letzstop')
+    pub_clue.publish('AIZCF,beans,-1,letzstop')
     state = 0
 
 
