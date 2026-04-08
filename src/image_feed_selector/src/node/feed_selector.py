@@ -8,11 +8,12 @@ rospy.init_node('image_feed_selector')
 selected_cam = "front"
 
 def cam_select_callback(camera):
-  selected_cam = camera
+  selected_cam = camera.data
 
 def image_callback_front(data):
   if selected_cam == "front":
     pub.Publish(data)
+    print("tried publishing front cam")
 
 def image_callback_rear(data):
   if selected_cam == "rear":

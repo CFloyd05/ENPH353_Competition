@@ -8,3 +8,8 @@
 12:14:04.887: Clue BANDIT: DR JOKES
 12:20:01.254: Message received: AIZCF,beans,0,letzgo
 12:20:01.255: Timer started.
+12:24:02.141: Out of time: 240.61200000000002sec sim time (real time: 241sec).
+12:24:04.490: Message received: AIZCF,beans,0,letzgo
+12:24:04.490: Timer started.
+12:24:44.937: Message received: AIZCF,beans,-1,letzstop
+12:24:44.938: Timer stopped: 40.40 sec sim time (real time: 40sec).
