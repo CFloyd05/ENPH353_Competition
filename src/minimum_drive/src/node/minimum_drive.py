@@ -19,7 +19,8 @@ LINE_3 = [-4.1, -2.3, 0.05, 0, 0, 0, 1] #yaw = 0
 rate = rospy.Rate(10)
 
 
-def clue_publish_callback(clue):
+def clue_publish_callback(clue_input):
+  clue = clue_input.data()
   if clue == 1:
     print("Clue 1 found: Entering State 3")
     state3_start_time = rospy.Time.now()
@@ -100,6 +101,7 @@ def set_position(position):
 # State 8: drive forward, read fifth sign behind
 # State 9: teleport to tunnel
 # State 10: drive back and read seventh sign
+# State 11: line-follow up mountain
 #
 # State 88: end timer
 # State 99: restart from state 1
@@ -248,7 +250,7 @@ while not rospy.is_shutdown():
   # Exit: none
   if state == 88:
     stop()
-    pub.clue.publish('AIZCF,beans,-1,letzstop')
+    pub_clue.publish('AIZCF,beans,-1,letzstop')
     state = 0
 
 

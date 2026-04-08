@@ -1,0 +1,8 @@
+prefix=/home/fizzer/ros_ws/devel
+
+Name: image_feed_selector
+Description: Description of image_feed_selector
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
