@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 time_trial_min
 -DCATKIN_DEVEL_PREFIX=/home/fizzer/ENPH353_Competition/devel -DCMAKE_INSTALL_PREFIX=/home/fizzer/ENPH353_Competition/install -G Unix Makefiles
+=======
+2025_competition/adeept_awr/adeept_awr_description:2025_competition/adeept_awr/adeept_awr_gazebo:2025_competition/enph353/enph353:2025_competition/enph353/enph353_gazebo:2025_competition/enph353/enph353_npcs:2025_competition/enph353/enph353_utils:2025_competition/robbie:character_isolation:character_recognition:clue_board_generator:clueboard_detection:time_trial_min
+-DCATKIN_DEVEL_PREFIX=/home/fizzer/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/fizzer/ros_ws/install -G Unix Makefiles
+>>>>>>> 8eafa872a728364f04ea5c1d8787679b5d79ed72
