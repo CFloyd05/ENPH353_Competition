@@ -4,6 +4,8 @@ from std_msgs.msg import String
 
 clue = String()
 pub = rospy.Publisher('/score_tracker', String, queue_size=1)
+pub_for_state = rospy.Publisher('/clue_publish_updates', String, queue_size=1)
+
 clue_location = -2
 types = ["SIZE", "VICTIM", "CRIME", "TIME", "LAB", "MOTIVE", "WEAPON", "BANDIT"]
 
@@ -32,3 +34,4 @@ def publish_clue(clue_type,clue_value)
 
   clue = ('AIZCF', beans, clue_location, clue_value)
   pub.publish(clue)
+  pub_for_state(clue_location)
