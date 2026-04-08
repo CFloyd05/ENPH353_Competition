@@ -236,9 +236,9 @@ while not rospy.is_shutdown():
   # State 10: Drive backwards and read seventh sign
   # Exit: Seventh clue published to score tracker (state 88) || 5 seconds passed (state 88)
   if state == 10:
-    drive_forward(DRIVE_SPEED)
+    drive_forward(-DRIVE_SPEED)
     pub_camera.publish('front')
-    elapsed = rospy.Time.now() - state7_start_time
+    elapsed = rospy.Time.now() - state10_start_time
 
     if elapsed.to_sec() > 10:
       print("Clue 7 not found: Entering state 88")
