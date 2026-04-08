@@ -1,10 +1,13 @@
 import rospy
 import difflib
 from std_msgs.msg import String
+from std_msgs.msg import Int32
 
-clue = String()
+clue_location = Int32()
+clue_value = String()
+clue_output = String()
 pub = rospy.Publisher('/score_tracker', String, queue_size=1)
-pub_for_state = rospy.Publisher('/clue_publish_updates', String, queue_size=1)
+pub_for_state = rospy.Publisher('/clue_publish_updates', Int32, queue_size=1)
 
 clue_location = -2
 types = ["SIZE", "VICTIM", "CRIME", "TIME", "LAB", "MOTIVE", "WEAPON", "BANDIT"]
@@ -33,7 +36,7 @@ def publish_clue(clue_type,clue_value)
     print("Clue read bad, womp womp")
     return("Bad clue read")
 
-  clue = ("AIZCF", "beans", clue_location, clue_value)
-  pub.publish(clue)
+  clue_output = "AIZCF, beans, " + clue_location.data() + ", " +  clue_value
+  pub.publish(clue_output)
   pub_for_state(clue_location)
   return("Good clue read")

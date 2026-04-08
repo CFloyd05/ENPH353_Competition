@@ -19,7 +19,8 @@ LINE_3 = [-4.1, -2.3, 0.05, 0, 0, 0, 1] #yaw = 0
 rate = rospy.Rate(10)
 
 
-def clue_publish_callback(clue):
+def clue_publish_callback(clue_input):
+  clue = clue_input.data()
   if clue == 1:
     print("Clue 1 found: Entering State 3")
     state3_start_time = rospy.Time.now()
