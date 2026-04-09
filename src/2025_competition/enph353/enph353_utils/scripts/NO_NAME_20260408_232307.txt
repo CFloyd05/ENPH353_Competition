@@ -1,0 +1,43 @@
+23:23:07.078: Clue SIZE: FIVE
+23:23:07.081: Clue VICTIM: PROFS
+23:23:07.083: Clue CRIME: PRANK QUIZ
+23:23:07.085: Clue TIME: FINALS WEEK
+23:23:07.085: Clue PLACE: LAB
+23:23:07.085: Clue MOTIVE: STRESS
+23:23:07.085: Clue WEAPON: FOUNTAIN PEN
+23:23:07.086: Clue BANDIT: DR JOKES
+23:23:14.461: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:14.474: Team total: 8 pts
+23:23:14.475: Awarded: 8 pts
+23:23:14.616: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:14.618: Awarded: 8 pts
+23:23:14.741: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:14.751: Awarded: 8 pts
+23:23:14.917: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:14.918: Awarded: 8 pts
+23:23:15.076: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:15.078: Awarded: 8 pts
+23:23:15.217: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:15.218: Awarded: 8 pts
+23:23:15.365: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:15.366: Awarded: 8 pts
+23:23:15.513: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:15.514: Awarded: 8 pts
+23:23:15.724: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:15.742: Awarded: 8 pts
+23:23:15.794: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:15.795: Awarded: 8 pts
+23:23:15.958: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:15.959: Awarded: 8 pts
+23:23:16.105: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:16.106: Awarded: 8 pts
+23:23:16.244: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:23:16.245: Awarded: 8 pts
+23:23:16.384: Message received: AIZCF,beans,1,FIVE
+23:23:16.387: Team total: 14 pts
+23:23:16.450: Awarded: 6 pts
+23:23:16.534: Message received: AIZCF,beans,1,FIVE
+23:23:16.536: Awarded: 6 pts
+23:23:16.681: Message received: AIZCF,beans,1,FIVE
+23:23:16.683: Awarded: 6 pts
+23:23:16.757: Message received: AIZCF,beans,0,letzgo

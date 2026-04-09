@@ -1,0 +1,12 @@
+23:32:10.423: Clue SIZE: FIVE
+23:32:10.429: Clue VICTIM: PROFS
+23:32:10.430: Clue CRIME: PRANK QUIZ
+23:32:10.435: Clue TIME: FINALS WEEK
+23:32:10.445: Clue PLACE: LAB
+23:32:10.453: Clue MOTIVE: STRESS
+23:32:10.455: Clue WEAPON: FOUNTAIN PEN
+23:32:10.458: Clue BANDIT: DR JOKES
+23:32:20.393: Message received: AIZCF,beans,0,letzgo
+23:32:20.415: Timer started.
+23:32:48.291: Message received: AIZCF,beans,-1,letzstop
+23:32:48.294: Timer stopped: 27.48 sec sim time (real time: 28sec).

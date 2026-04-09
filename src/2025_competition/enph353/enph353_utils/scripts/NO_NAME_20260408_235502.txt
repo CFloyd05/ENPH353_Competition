@@ -1,0 +1,16 @@
+23:55:02.819: Clue SIZE: FIVE
+23:55:02.832: Clue VICTIM: PROFS
+23:55:02.833: Clue CRIME: PRANK QUIZ
+23:55:02.838: Clue TIME: FINALS WEEK
+23:55:02.848: Clue PLACE: LAB
+23:55:02.859: Clue MOTIVE: STRESS
+23:55:02.870: Clue WEAPON: FOUNTAIN PEN
+23:55:02.879: Clue BANDIT: DR JOKES
+23:55:14.979: Message received: AIZCF,beans,1,FIVE
+23:55:15.061: Team total: 6 pts
+23:55:15.063: Awarded: 6 pts
+23:55:15.104: Message received: AIZCF,beans,1,FIVE
+23:55:15.105: Awarded: 6 pts
+23:55:15.272: Message received: AIZCF,beans,1,FIVE
+23:55:15.285: Awarded: 6 pts
+23:55:15.323: Message received: AIZCF,beans,0,letzgo

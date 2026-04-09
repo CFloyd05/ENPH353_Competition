@@ -103,9 +103,9 @@ class ClueboardFinder:
         # Apply the mask back to the original BGR image
         blue_only = cv.bitwise_and(self.frame, self.frame, mask=mask)
 
-        #   plt.imshow(cv.cvtColor(blue_only, cv.COLOR_BGR2RGB))
-        #   plt.title("Blue Filtered (HSV)")
-        #   plt.show()
+        # plt.imshow(cv.cvtColor(blue_only, cv.COLOR_BGR2RGB))
+        # plt.title("Blue Filtered (HSV)")
+        # plt.show()
 
         imgray = cv.cvtColor(blue_only, cv.COLOR_BGR2GRAY)
         ret, thresh = cv.threshold(imgray, 130, 255, cv.THRESH_TOZERO_INV)
@@ -215,7 +215,13 @@ class ClueboardFinder:
     
     def readClueboardandPublish(self):
         if hasattr(self, 'transformedImg'):
+
+            # plt.imshow(cv.cvtColor(self.transformedImg, cv.COLOR_BGR2RGB))  
+            # plt.title("Transformed Image")
+            # plt.show()
+
             type, clueboard_text = read_board(self.transformedImg)
+            # print(clueboard_text) # output of nn
             publish_clue(type, clueboard_text)
             print(f"Clueboard read: {type} - {clueboard_text}")
 

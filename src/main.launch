@@ -1,14 +1,18 @@
 <launch>
 
 	<!-- Start the score tracker -->
-	</include file="$(find enph353_utils)/launch/score_tracker.launch"/>
+	<include file="/home/fizzer/ros_ws/src/2025_competition/enph353/enph353_utils/launch/score_tracker.launch"/>
+
+     <!-- Start image selection node-->
+    <node pkg="image_feed_selector" type="feed_selector.py" name="image_feed_selector" output="screen">
+    </node>
 
     <!-- Start clueboard detection and scoreboard publishing Note: setting output to screen means my print messages will show up in the terminal-->
     <node pkg="clueboard_detection" type="clueboard_detection.py" name="clueboard_finder_node" output="screen">
     </node>
 
     <!-- Start driving Note: setting output to screen means my print messages will show up in the terminal -->
-    <node pkg="minimum_drive" type="minimum_drive.py" name="driving_node" output="screen">
+    <node pkg="minimum_drive" type="minimum_drive.py" name="driving_node" output="screen" launch-prefix="bash -c 'sleep 10; $0 $@' ">
     </node>
 
 </launch>

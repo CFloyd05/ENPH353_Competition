@@ -1,0 +1,213 @@
+23:34:44.805: Clue SIZE: FIVE
+23:34:44.828: Clue VICTIM: PROFS
+23:34:44.832: Clue CRIME: PRANK QUIZ
+23:34:44.843: Clue TIME: FINALS WEEK
+23:34:44.864: Clue PLACE: LAB
+23:34:44.874: Clue MOTIVE: STRESS
+23:34:44.884: Clue WEAPON: FOUNTAIN PEN
+23:34:44.892: Clue BANDIT: DR JOKES
+23:34:55.152: Message received: AIZCF,beans,0,letzgo
+23:34:55.238: Timer started.
+23:34:57.553: Message received: AIZCF,beans,1,FIVE
+23:34:57.647: Team total: 6 pts
+23:34:57.665: Awarded: 6 pts
+23:34:57.777: Message received: AIZCF,beans,1,FIVE
+23:34:57.982: Awarded: 6 pts
+23:34:57.994: Message received: AIZCF,beans,1,FIVE
+23:34:57.998: Awarded: 6 pts
+23:34:58.100: Message received: AIZCF,beans,1,FIVE
+23:34:58.232: Awarded: 6 pts
+23:34:58.236: Message received: AIZCF,beans,1,FIVE
+23:34:58.251: Awarded: 6 pts
+23:34:58.338: Message received: AIZCF,beans,1,FIVE
+23:34:58.339: Awarded: 6 pts
+23:34:58.449: Message received: AIZCF,beans,1,FIVE
+23:34:58.454: Awarded: 6 pts
+23:34:58.581: Message received: AIZCF,beans,1,FIVE
+23:34:58.583: Awarded: 6 pts
+23:34:58.711: Message received: AIZCF,beans,1,FIVE
+23:34:58.712: Awarded: 6 pts
+23:34:58.852: Message received: AIZCF,beans,1,FIVE
+23:34:58.854: Awarded: 6 pts
+23:34:58.987: Message received: AIZCF,beans,1,FIVE
+23:34:58.989: Awarded: 6 pts
+23:34:59.131: Message received: AIZCF,beans,1,FIVE
+23:34:59.131: Awarded: 6 pts
+23:34:59.256: Message received: AIZCF,beans,1,FIVE
+23:34:59.256: Awarded: 6 pts
+23:34:59.384: Message received: AIZCF,beans,1,FIVE
+23:34:59.384: Awarded: 6 pts
+23:34:59.526: Message received: AIZCF,beans,1,FIVE
+23:34:59.528: Awarded: 6 pts
+23:34:59.661: Message received: AIZCF,beans,1,FIVE
+23:34:59.662: Awarded: 6 pts
+23:34:59.887: Message received: AIZCF,beans,1,FIVE
+23:34:59.888: Awarded: 6 pts
+23:35:00.038: Message received: AIZCF,beans,1,FIVE
+23:35:00.040: Awarded: 6 pts
+23:35:00.187: Message received: AIZCF,beans,1,FIVE
+23:35:00.188: Awarded: 6 pts
+23:35:00.305: Message received: AIZCF,beans,1,FIVE
+23:35:00.306: Awarded: 6 pts
+23:35:00.463: Message received: AIZCF,beans,1,FIVE
+23:35:00.465: Awarded: 6 pts
+23:35:00.595: Message received: AIZCF,beans,1,FIVE
+23:35:00.596: Awarded: 6 pts
+23:35:00.750: Message received: AIZCF,beans,1,FIVE
+23:35:00.752: Awarded: 6 pts
+23:35:00.904: Message received: AIZCF,beans,1,FIVE
+23:35:00.906: Awarded: 6 pts
+23:35:01.045: Message received: AIZCF,beans,1,FIVE
+23:35:01.047: Awarded: 6 pts
+23:35:01.189: Message received: AIZCF,beans,1,FIVE
+23:35:01.189: Awarded: 6 pts
+23:35:01.335: Message received: AIZCF,beans,1,FIVE
+23:35:01.336: Awarded: 6 pts
+23:35:01.458: Message received: AIZCF,beans,1,FIVE
+23:35:01.460: Awarded: 6 pts
+23:35:02.066: Message received: AIZCF,beans,2,PRGFS
+23:35:02.142: Awarded: 0 pts
+23:35:02.379: Message received: AIZCF,beans,2,PRGFS
+23:35:02.386: Awarded: 0 pts
+23:35:02.394: Message received: AIZCF,beans,2,PROFS
+23:35:02.445: Team total: 12 pts
+23:35:02.446: Awarded: 6 pts
+23:35:02.506: Message received: AIZCF,beans,2,PROFS
+23:35:02.508: Awarded: 6 pts
+23:35:02.650: Message received: AIZCF,beans,2,P4GFS
+23:35:02.651: Team total: 6 pts
+23:35:02.657: Awarded: 0 pts
+23:35:02.791: Message received: AIZCF,beans,2,PROFS
+23:35:02.794: Team total: 12 pts
+23:35:02.795: Awarded: 6 pts
+23:35:02.935: Message received: AIZCF,beans,2,7ROFS
+23:35:02.936: Team total: 6 pts
+23:35:02.939: Awarded: 0 pts
+23:35:03.076: Message received: AIZCF,beans,2,7ROFS
+23:35:03.078: Awarded: 0 pts
+23:35:03.229: Message received: AIZCF,beans,2,7ROFS
+23:35:03.231: Awarded: 0 pts
+23:35:03.386: Message received: AIZCF,beans,2,7ROFS
+23:35:03.388: Awarded: 0 pts
+23:35:03.538: Message received: AIZCF,beans,2,7ROFS
+23:35:03.539: Awarded: 0 pts
+23:35:03.683: Message received: AIZCF,beans,2,7ROFS
+23:35:03.685: Awarded: 0 pts
+23:35:15.247: Message received: AIZCF,beans,6,STRESS
+23:35:15.258: Team total: 12 pts
+23:35:15.260: Awarded: 6 pts
+23:35:15.387: Message received: AIZCF,beans,6,5TRESS
+23:35:15.389: Team total: 6 pts
+23:35:15.390: Awarded: 0 pts
+23:35:15.513: Message received: AIZCF,beans,6,STRESS
+23:35:15.516: Team total: 12 pts
+23:35:15.518: Awarded: 6 pts
+23:35:15.652: Message received: AIZCF,beans,6,STRESS
+23:35:15.653: Awarded: 6 pts
+23:35:15.791: Message received: AIZCF,beans,6,STRESS
+23:35:15.794: Awarded: 6 pts
+23:35:15.916: Message received: AIZCF,beans,6,STRESS
+23:35:15.918: Awarded: 6 pts
+23:35:16.051: Message received: AIZCF,beans,6,STRESS
+23:35:16.052: Awarded: 6 pts
+23:35:16.194: Message received: AIZCF,beans,6,STRESS
+23:35:16.196: Awarded: 6 pts
+23:35:16.313: Message received: AIZCF,beans,6,STRESS
+23:35:16.314: Awarded: 6 pts
+23:35:16.421: Message received: AIZCF,beans,6,STRESS
+23:35:16.422: Awarded: 6 pts
+23:35:16.537: Message received: AIZCF,beans,6,STRESS
+23:35:16.539: Awarded: 6 pts
+23:35:16.666: Message received: AIZCF,beans,6,STRESS
+23:35:16.668: Awarded: 6 pts
+23:35:16.807: Message received: AIZCF,beans,6,STRESS
+23:35:16.808: Awarded: 6 pts
+23:35:16.946: Message received: AIZCF,beans,6,STRESS
+23:35:16.949: Awarded: 6 pts
+23:35:17.090: Message received: AIZCF,beans,6,STRESS
+23:35:17.091: Awarded: 6 pts
+23:35:17.247: Message received: AIZCF,beans,6,STRESS
+23:35:17.249: Awarded: 6 pts
+23:35:17.392: Message received: AIZCF,beans,6,STRESS
+23:35:17.394: Awarded: 6 pts
+23:35:17.529: Message received: AIZCF,beans,6,STRESS
+23:35:17.531: Awarded: 6 pts
+23:35:17.683: Message received: AIZCF,beans,6,STRESS
+23:35:17.685: Awarded: 6 pts
+23:35:17.817: Message received: AIZCF,beans,6,STRESS
+23:35:17.819: Awarded: 6 pts
+23:35:17.966: Message received: AIZCF,beans,6,STRESS
+23:35:17.968: Awarded: 6 pts
+23:35:18.103: Message received: AIZCF,beans,6,STRESS
+23:35:18.104: Awarded: 6 pts
+23:35:18.239: Message received: AIZCF,beans,6,STRESS
+23:35:18.240: Awarded: 6 pts
+23:35:18.667: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:18.670: Team total: 20 pts
+23:35:18.673: Awarded: 8 pts
+23:35:18.817: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:18.821: Awarded: 8 pts
+23:35:18.974: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:18.975: Awarded: 8 pts
+23:35:19.111: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:19.112: Awarded: 8 pts
+23:35:19.223: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:19.224: Awarded: 8 pts
+23:35:19.343: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:19.345: Awarded: 8 pts
+23:35:19.503: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:19.505: Awarded: 8 pts
+23:35:19.639: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:19.641: Awarded: 8 pts
+23:35:19.769: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:19.770: Awarded: 8 pts
+23:35:19.889: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:19.899: Awarded: 8 pts
+23:35:20.029: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:20.034: Awarded: 8 pts
+23:35:20.156: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:20.162: Awarded: 8 pts
+23:35:20.312: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:20.353: Awarded: 8 pts
+23:35:20.749: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:20.749: Awarded: 8 pts
+23:35:20.756: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:20.772: Awarded: 8 pts
+23:35:20.783: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:20.796: Awarded: 8 pts
+23:35:20.826: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:20.828: Awarded: 8 pts
+23:35:20.972: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:20.975: Awarded: 8 pts
+23:35:21.121: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:21.123: Awarded: 8 pts
+23:35:21.264: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:21.266: Awarded: 8 pts
+23:35:21.406: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:21.408: Awarded: 8 pts
+23:35:21.620: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:21.622: Awarded: 8 pts
+23:35:21.706: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:21.707: Awarded: 8 pts
+23:35:21.867: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:21.869: Awarded: 8 pts
+23:35:22.018: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:22.019: Awarded: 8 pts
+23:35:22.175: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:22.176: Awarded: 8 pts
+23:35:22.334: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:22.336: Awarded: 8 pts
+23:35:22.483: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:22.484: Awarded: 8 pts
+23:35:22.635: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:22.636: Awarded: 8 pts
+23:35:22.785: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:22.786: Awarded: 8 pts
+23:35:22.894: Message received: AIZCF,beans,-1,letzstop
+23:35:22.922: Timer stopped: 27.33 sec sim time (real time: 27sec).
+23:35:22.963: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:22.965: Awarded: 8 pts
+23:35:23.120: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:23.123: Awarded: 8 pts
+23:35:23.288: Message received: AIZCF,beans,7,FOUNTAIN PEN
+23:35:23.290: Awarded: 8 pts

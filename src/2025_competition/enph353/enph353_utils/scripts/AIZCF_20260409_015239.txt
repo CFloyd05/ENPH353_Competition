@@ -1,0 +1,388 @@
+01:52:39.086: Clue SIZE: FIVE
+01:52:39.086: Clue VICTIM: PROFS
+01:52:39.086: Clue CRIME: PRANK QUIZ
+01:52:39.089: Clue TIME: FINALS WEEK
+01:52:39.090: Clue PLACE: LAB
+01:52:39.090: Clue MOTIVE: STRESS
+01:52:39.090: Clue WEAPON: FOUNTAIN PEN
+01:52:39.091: Clue BANDIT: DR JOKES
+01:52:39.903: Message received: AIZCF,beans,0,letzgo
+01:52:39.904: Timer started.
+01:52:42.044: Message received: AIZCF,beans,1,FIVE
+01:52:42.047: Team total: 6 pts
+01:52:42.048: Awarded: 6 pts
+01:52:42.157: Message received: AIZCF,beans,1,FIVE
+01:52:42.158: Awarded: 6 pts
+01:52:42.275: Message received: AIZCF,beans,1,FIVE
+01:52:42.276: Awarded: 6 pts
+01:52:42.387: Message received: AIZCF,beans,1,FIVE
+01:52:42.388: Awarded: 6 pts
+01:52:42.504: Message received: AIZCF,beans,1,FIVE
+01:52:42.506: Awarded: 6 pts
+01:52:42.624: Message received: AIZCF,beans,1,FIVE
+01:52:42.625: Awarded: 6 pts
+01:52:42.738: Message received: AIZCF,beans,1,FIVE
+01:52:42.739: Awarded: 6 pts
+01:52:42.854: Message received: AIZCF,beans,1,FIVE
+01:52:42.854: Awarded: 6 pts
+01:52:42.972: Message received: AIZCF,beans,1,FIVE
+01:52:42.973: Awarded: 6 pts
+01:52:43.095: Message received: AIZCF,beans,1,FIVE
+01:52:43.098: Awarded: 6 pts
+01:52:43.210: Message received: AIZCF,beans,1,FIVE
+01:52:43.212: Awarded: 6 pts
+01:52:43.323: Message received: AIZCF,beans,1,FIVE
+01:52:43.324: Awarded: 6 pts
+01:52:43.431: Message received: AIZCF,beans,1,FIVE
+01:52:43.432: Awarded: 6 pts
+01:52:43.539: Message received: AIZCF,beans,1,FIVE
+01:52:43.540: Awarded: 6 pts
+01:52:43.655: Message received: AIZCF,beans,1,FIVE
+01:52:43.656: Awarded: 6 pts
+01:52:43.770: Message received: AIZCF,beans,1,FIVE
+01:52:43.772: Awarded: 6 pts
+01:52:43.879: Message received: AIZCF,beans,1,FIVE
+01:52:43.880: Awarded: 6 pts
+01:52:43.983: Message received: AIZCF,beans,1,FIVE
+01:52:43.984: Awarded: 6 pts
+01:52:44.087: Message received: AIZCF,beans,1,FIVE
+01:52:44.088: Awarded: 6 pts
+01:52:44.196: Message received: AIZCF,beans,1,FIVE
+01:52:44.198: Awarded: 6 pts
+01:52:44.590: Message received: AIZCF,beans,1,FIVE
+01:52:44.591: Awarded: 6 pts
+01:52:44.706: Message received: AIZCF,beans,1,FIVE
+01:52:44.707: Awarded: 6 pts
+01:52:44.817: Message received: AIZCF,beans,1,FIVE
+01:52:44.818: Awarded: 6 pts
+01:52:44.924: Message received: AIZCF,beans,1,FIVE
+01:52:44.925: Awarded: 6 pts
+01:52:45.030: Message received: AIZCF,beans,1,FIVE
+01:52:45.031: Awarded: 6 pts
+01:52:45.146: Message received: AIZCF,beans,1,FIVE
+01:52:45.147: Awarded: 6 pts
+01:52:45.253: Message received: AIZCF,beans,1,FIVE
+01:52:45.254: Awarded: 6 pts
+01:52:45.822: Message received: AIZCF,beans,2,PRGFS
+01:52:45.823: Awarded: 0 pts
+01:52:46.150: Message received: AIZCF,beans,2,PRGFS
+01:52:46.152: Awarded: 0 pts
+01:52:46.423: Message received: AIZCF,beans,2,PRGFS
+01:52:46.424: Awarded: 0 pts
+01:52:46.568: Message received: AIZCF,beans,2,PROFS
+01:52:46.569: Team total: 12 pts
+01:52:46.569: Awarded: 6 pts
+01:52:46.682: Message received: AIZCF,beans,2,FROFS
+01:52:46.683: Team total: 6 pts
+01:52:46.684: Awarded: 0 pts
+01:52:46.791: Message received: AIZCF,beans,2,PROFS
+01:52:46.793: Team total: 12 pts
+01:52:46.794: Awarded: 6 pts
+01:52:46.909: Message received: AIZCF,beans,2,PROFS
+01:52:46.911: Awarded: 6 pts
+01:52:47.025: Message received: AIZCF,beans,2,PROFS
+01:52:47.026: Awarded: 6 pts
+01:52:47.136: Message received: AIZCF,beans,2,PROFS
+01:52:47.137: Awarded: 6 pts
+01:52:47.244: Message received: AIZCF,beans,2,PROFS
+01:52:47.244: Awarded: 6 pts
+01:52:47.359: Message received: AIZCF,beans,2,PROFS
+01:52:47.360: Awarded: 6 pts
+01:52:47.475: Message received: AIZCF,beans,2,PROFS
+01:52:47.477: Awarded: 6 pts
+01:52:47.593: Message received: AIZCF,beans,2,PROFS
+01:52:47.594: Awarded: 6 pts
+01:52:47.715: Message received: AIZCF,beans,2,PROFS
+01:52:47.716: Awarded: 6 pts
+01:52:47.826: Message received: AIZCF,beans,2,PROFS
+01:52:47.827: Awarded: 6 pts
+01:52:47.942: Message received: AIZCF,beans,2,PROFS
+01:52:47.944: Awarded: 6 pts
+01:52:48.064: Message received: AIZCF,beans,2,PROFS
+01:52:48.066: Awarded: 6 pts
+01:52:48.184: Message received: AIZCF,beans,2,PROFS
+01:52:48.190: Awarded: 6 pts
+01:52:48.295: Message received: AIZCF,beans,2,PROFS
+01:52:48.296: Awarded: 6 pts
+01:52:48.428: Message received: AIZCF,beans,2,PROFS
+01:52:48.429: Awarded: 6 pts
+01:52:48.538: Message received: AIZCF,beans,2,PROFS
+01:52:48.539: Awarded: 6 pts
+01:52:48.645: Message received: AIZCF,beans,2,PROFS
+01:52:48.646: Awarded: 6 pts
+01:52:48.905: Message received: AIZCF,beans,2,PROFS
+01:52:48.907: Awarded: 6 pts
+01:52:49.384: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:49.386: Team total: 18 pts
+01:52:49.387: Awarded: 6 pts
+01:52:49.621: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:49.623: Awarded: 6 pts
+01:52:49.742: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:49.743: Awarded: 6 pts
+01:52:49.865: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:49.867: Awarded: 6 pts
+01:52:49.982: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:49.983: Awarded: 6 pts
+01:52:50.103: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:50.104: Awarded: 6 pts
+01:52:50.214: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:50.215: Awarded: 6 pts
+01:52:50.323: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:50.324: Awarded: 6 pts
+01:52:50.432: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:50.433: Awarded: 6 pts
+01:52:50.550: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:50.551: Awarded: 6 pts
+01:52:50.669: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:50.670: Awarded: 6 pts
+01:52:50.785: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:50.786: Awarded: 6 pts
+01:52:50.900: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:50.901: Awarded: 6 pts
+01:52:51.019: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.020: Awarded: 6 pts
+01:52:51.129: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.130: Awarded: 6 pts
+01:52:51.241: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.243: Awarded: 6 pts
+01:52:51.354: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.355: Awarded: 6 pts
+01:52:51.469: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.470: Awarded: 6 pts
+01:52:51.577: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.578: Awarded: 6 pts
+01:52:51.691: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.692: Awarded: 6 pts
+01:52:51.803: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.804: Awarded: 6 pts
+01:52:51.923: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:51.924: Awarded: 6 pts
+01:52:52.035: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.036: Awarded: 6 pts
+01:52:52.157: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.158: Awarded: 6 pts
+01:52:52.277: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.279: Awarded: 6 pts
+01:52:52.397: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.398: Awarded: 6 pts
+01:52:52.516: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.517: Awarded: 6 pts
+01:52:52.625: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.627: Awarded: 6 pts
+01:52:52.744: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.745: Awarded: 6 pts
+01:52:52.858: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.859: Awarded: 6 pts
+01:52:52.971: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:52.973: Awarded: 6 pts
+01:52:53.077: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:53.079: Awarded: 6 pts
+01:52:53.191: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:53.193: Awarded: 6 pts
+01:52:53.295: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:53.296: Awarded: 6 pts
+01:52:53.401: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:53.403: Awarded: 6 pts
+01:52:53.509: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:53.510: Awarded: 6 pts
+01:52:53.622: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:53.624: Awarded: 6 pts
+01:52:53.731: Message received: AIZCF,beans,3,PRANK QUIZ
+01:52:53.733: Awarded: 6 pts
+01:52:54.182: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:54.183: Team total: 24 pts
+01:52:54.184: Awarded: 6 pts
+01:52:54.299: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:54.301: Awarded: 6 pts
+01:52:54.416: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:54.417: Awarded: 6 pts
+01:52:54.534: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:54.535: Awarded: 6 pts
+01:52:54.661: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:54.662: Awarded: 6 pts
+01:52:54.778: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:54.780: Awarded: 6 pts
+01:52:54.901: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:54.902: Awarded: 6 pts
+01:52:55.025: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.026: Awarded: 6 pts
+01:52:55.140: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.142: Awarded: 6 pts
+01:52:55.255: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.256: Awarded: 6 pts
+01:52:55.367: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.368: Awarded: 6 pts
+01:52:55.489: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.491: Awarded: 6 pts
+01:52:55.606: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.607: Awarded: 6 pts
+01:52:55.724: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.725: Awarded: 6 pts
+01:52:55.837: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.838: Awarded: 6 pts
+01:52:55.958: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:55.959: Awarded: 6 pts
+01:52:56.067: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:56.068: Awarded: 6 pts
+01:52:56.179: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:56.180: Awarded: 6 pts
+01:52:56.298: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:56.300: Awarded: 6 pts
+01:52:56.482: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:56.483: Awarded: 6 pts
+01:52:56.928: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:56.929: Awarded: 6 pts
+01:52:57.362: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:57.363: Awarded: 6 pts
+01:52:57.767: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:57.769: Awarded: 6 pts
+01:52:58.217: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:58.228: Awarded: 6 pts
+01:52:58.633: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:58.634: Awarded: 6 pts
+01:52:59.055: Message received: AIZCF,beans,4,FINALS WEEK
+01:52:59.057: Awarded: 6 pts
+01:52:59.518: Message received: AIZCF,beans,6,STRESS
+01:52:59.520: Team total: 30 pts
+01:52:59.521: Awarded: 6 pts
+01:52:59.632: Message received: AIZCF,beans,6,STRESS
+01:52:59.633: Awarded: 6 pts
+01:52:59.745: Message received: AIZCF,beans,6,STRESS
+01:52:59.746: Awarded: 6 pts
+01:52:59.851: Message received: AIZCF,beans,6,STRESS
+01:52:59.852: Awarded: 6 pts
+01:52:59.967: Message received: AIZCF,beans,6,STRESS
+01:52:59.968: Awarded: 6 pts
+01:53:00.083: Message received: AIZCF,beans,6,5TRESS
+01:53:00.084: Team total: 24 pts
+01:53:00.085: Awarded: 0 pts
+01:53:00.200: Message received: AIZCF,beans,6,STRESS
+01:53:00.203: Team total: 30 pts
+01:53:00.204: Awarded: 6 pts
+01:53:00.312: Message received: AIZCF,beans,6,STRESS
+01:53:00.313: Awarded: 6 pts
+01:53:00.447: Message received: AIZCF,beans,6,STRESS
+01:53:00.448: Awarded: 6 pts
+01:53:00.560: Message received: AIZCF,beans,6,STRESS
+01:53:00.562: Awarded: 6 pts
+01:53:00.672: Message received: AIZCF,beans,6,STRESS
+01:53:00.673: Awarded: 6 pts
+01:53:03.174: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:03.177: Team total: 38 pts
+01:53:03.178: Awarded: 8 pts
+01:53:03.301: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:03.303: Awarded: 8 pts
+01:53:03.419: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:03.420: Awarded: 8 pts
+01:53:03.534: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:03.536: Awarded: 8 pts
+01:53:03.648: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:03.649: Awarded: 8 pts
+01:53:03.762: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:03.764: Awarded: 8 pts
+01:53:03.891: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:03.893: Awarded: 8 pts
+01:53:04.003: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.004: Awarded: 8 pts
+01:53:04.122: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.124: Awarded: 8 pts
+01:53:04.235: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.236: Awarded: 8 pts
+01:53:04.353: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.355: Awarded: 8 pts
+01:53:04.480: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.481: Awarded: 8 pts
+01:53:04.596: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.597: Awarded: 8 pts
+01:53:04.724: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.725: Awarded: 8 pts
+01:53:04.844: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.845: Awarded: 8 pts
+01:53:04.965: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:04.966: Awarded: 8 pts
+01:53:05.089: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:05.091: Awarded: 8 pts
+01:53:05.210: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:05.211: Awarded: 8 pts
+01:53:05.331: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:05.332: Awarded: 8 pts
+01:53:05.448: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:05.449: Awarded: 8 pts
+01:53:05.564: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:05.565: Awarded: 8 pts
+01:53:05.690: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:05.692: Awarded: 8 pts
+01:53:05.807: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:05.808: Awarded: 8 pts
+01:53:05.924: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:05.925: Awarded: 8 pts
+01:53:06.035: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.036: Awarded: 8 pts
+01:53:06.155: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.156: Awarded: 8 pts
+01:53:06.277: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.279: Awarded: 8 pts
+01:53:06.392: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.394: Awarded: 8 pts
+01:53:06.510: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.511: Awarded: 8 pts
+01:53:06.630: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.631: Awarded: 8 pts
+01:53:06.747: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.748: Awarded: 8 pts
+01:53:06.867: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.869: Awarded: 8 pts
+01:53:06.978: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:06.979: Awarded: 8 pts
+01:53:07.095: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:07.097: Awarded: 8 pts
+01:53:07.208: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:07.209: Awarded: 8 pts
+01:53:07.318: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:07.319: Awarded: 8 pts
+01:53:07.448: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:07.450: Awarded: 8 pts
+01:53:07.575: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:07.576: Awarded: 8 pts
+01:53:07.694: Message received: AIZCF,beans,-1,letzstop
+01:53:07.696: Timer stopped: 27.50 sec sim time (real time: 27sec).
+01:53:07.697: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:07.698: Awarded: 8 pts
+01:53:07.840: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:07.842: Awarded: 8 pts
+01:53:07.955: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:07.957: Awarded: 8 pts
+01:53:08.074: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:08.076: Awarded: 8 pts
+01:53:08.195: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:08.197: Awarded: 8 pts
+01:53:08.322: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:08.324: Awarded: 8 pts
+01:53:08.435: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:08.436: Awarded: 8 pts
+01:53:08.551: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:08.552: Awarded: 8 pts
+01:53:08.678: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:08.679: Awarded: 8 pts
+01:53:08.805: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:08.807: Awarded: 8 pts
+01:53:08.929: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:08.931: Awarded: 8 pts
+01:53:09.049: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:09.051: Awarded: 8 pts
+01:53:09.160: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:09.162: Awarded: 8 pts
+01:53:09.301: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:09.303: Awarded: 8 pts
+01:53:09.422: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:09.424: Awarded: 8 pts
+01:53:09.540: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:09.541: Awarded: 8 pts
+01:53:09.655: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:09.656: Awarded: 8 pts
+01:53:09.764: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:09.766: Awarded: 8 pts
+01:53:09.892: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:09.894: Awarded: 8 pts
+01:53:10.012: Message received: AIZCF,beans,7,FOUNTAIN PEN
+01:53:10.014: Awarded: 8 pts
