@@ -26,7 +26,5 @@
 		<include file="$(find enph353_gazebo)/launch/wind.launch"/>
 	</group>
 
-	<!-- Start the score tracker -->
-	</include file="$(find enph353_utils)/launch/score_tracker.launch"/>
 
 </launch>
