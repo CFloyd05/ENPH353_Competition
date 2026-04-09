@@ -3392,3 +3392,687 @@
 20:49:12.803: Plate location is not a number.
 20:49:12.936: Message received: AIZCF, beans, 7, FOUNTAIN PEN
 20:49:12.938: Plate location is not a number.
+21:10:46.354: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:46.393: Plate location is not a number.
+21:10:46.516: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:46.522: Plate location is not a number.
+21:10:46.658: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:46.661: Plate location is not a number.
+21:10:46.805: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:46.808: Plate location is not a number.
+21:10:46.958: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:46.960: Plate location is not a number.
+21:10:47.089: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:47.091: Plate location is not a number.
+21:10:47.215: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:47.217: Plate location is not a number.
+21:10:47.372: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:47.374: Plate location is not a number.
+21:10:47.528: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:47.530: Plate location is not a number.
+21:10:47.687: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:47.690: Plate location is not a number.
+21:10:47.823: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:47.826: Plate location is not a number.
+21:10:47.951: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:47.953: Plate location is not a number.
+21:10:48.086: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:48.091: Plate location is not a number.
+21:10:48.209: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:48.211: Plate location is not a number.
+21:10:48.313: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:48.314: Plate location is not a number.
+21:10:48.435: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:48.438: Plate location is not a number.
+21:10:48.589: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:48.591: Plate location is not a number.
+21:10:48.741: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:48.743: Plate location is not a number.
+21:10:48.888: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:48.890: Plate location is not a number.
+21:10:49.016: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:49.020: Plate location is not a number.
+21:10:49.153: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:49.155: Plate location is not a number.
+21:10:49.294: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:49.296: Plate location is not a number.
+21:10:49.391: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:49.393: Plate location is not a number.
+21:10:49.515: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:49.519: Plate location is not a number.
+21:10:49.664: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:49.666: Plate location is not a number.
+21:10:49.820: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:49.823: Plate location is not a number.
+21:10:49.962: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:49.965: Plate location is not a number.
+21:10:50.099: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:50.102: Plate location is not a number.
+21:10:50.238: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:50.240: Plate location is not a number.
+21:10:50.365: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:50.368: Plate location is not a number.
+21:10:50.487: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:50.488: Plate location is not a number.
+21:10:50.596: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:50.599: Plate location is not a number.
+21:10:50.736: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:50.738: Plate location is not a number.
+21:10:50.877: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:50.880: Plate location is not a number.
+21:10:51.020: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:51.022: Plate location is not a number.
+21:10:51.150: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:51.152: Plate location is not a number.
+21:10:51.279: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:51.363: Plate location is not a number.
+21:10:51.373: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:51.377: Plate location is not a number.
+21:10:51.431: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:51.435: Plate location is not a number.
+21:10:51.595: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:51.599: Plate location is not a number.
+21:10:51.779: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:51.782: Plate location is not a number.
+21:10:51.966: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:51.969: Plate location is not a number.
+21:10:52.125: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:52.127: Plate location is not a number.
+21:10:52.276: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:52.279: Plate location is not a number.
+21:10:52.425: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:52.428: Plate location is not a number.
+21:10:52.580: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:52.584: Plate location is not a number.
+21:10:52.774: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:52.780: Plate location is not a number.
+21:10:53.021: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:53.025: Plate location is not a number.
+21:10:53.230: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:53.234: Plate location is not a number.
+21:10:53.453: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:53.456: Plate location is not a number.
+21:10:53.675: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:53.677: Plate location is not a number.
+21:10:53.893: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:53.897: Plate location is not a number.
+21:10:54.080: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:54.082: Plate location is not a number.
+21:10:54.296: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:54.300: Plate location is not a number.
+21:10:54.490: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:54.494: Plate location is not a number.
+21:10:54.701: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:54.703: Plate location is not a number.
+21:10:54.869: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:54.873: Plate location is not a number.
+21:10:55.063: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:55.067: Plate location is not a number.
+21:10:55.227: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:55.231: Plate location is not a number.
+21:10:55.373: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:55.376: Plate location is not a number.
+21:10:55.506: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:55.508: Plate location is not a number.
+21:10:55.691: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:55.693: Plate location is not a number.
+21:10:55.869: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:55.873: Plate location is not a number.
+21:10:56.076: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:56.078: Plate location is not a number.
+21:10:56.244: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:56.247: Plate location is not a number.
+21:10:56.396: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:56.401: Plate location is not a number.
+21:10:56.529: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:56.531: Plate location is not a number.
+21:10:56.661: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:56.664: Plate location is not a number.
+21:10:56.810: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:56.812: Plate location is not a number.
+21:10:56.950: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:56.952: Plate location is not a number.
+21:10:57.096: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:57.099: Plate location is not a number.
+21:10:57.236: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:57.238: Plate location is not a number.
+21:10:57.379: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:57.382: Plate location is not a number.
+21:10:57.518: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:57.520: Plate location is not a number.
+21:10:57.647: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:57.649: Plate location is not a number.
+21:10:57.816: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:57.820: Plate location is not a number.
+21:10:58.023: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:58.026: Plate location is not a number.
+21:10:58.207: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:58.212: Plate location is not a number.
+21:10:58.344: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:58.350: Plate location is not a number.
+21:10:58.482: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:58.484: Plate location is not a number.
+21:10:58.618: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:58.620: Plate location is not a number.
+21:10:58.783: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:58.786: Plate location is not a number.
+21:10:58.926: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:58.928: Plate location is not a number.
+21:10:59.068: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:59.070: Plate location is not a number.
+21:10:59.210: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:59.213: Plate location is not a number.
+21:10:59.358: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:59.361: Plate location is not a number.
+21:10:59.558: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:59.563: Plate location is not a number.
+21:10:59.733: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:59.735: Plate location is not a number.
+21:10:59.935: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:10:59.939: Plate location is not a number.
+21:11:00.123: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:00.126: Plate location is not a number.
+21:11:00.286: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:00.289: Plate location is not a number.
+21:11:00.432: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:00.435: Plate location is not a number.
+21:11:00.580: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:00.583: Plate location is not a number.
+21:11:00.723: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:00.725: Plate location is not a number.
+21:11:00.888: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:00.891: Plate location is not a number.
+21:11:01.041: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:01.045: Plate location is not a number.
+21:11:01.181: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:01.184: Plate location is not a number.
+21:11:01.331: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:01.334: Plate location is not a number.
+21:11:01.485: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:01.488: Plate location is not a number.
+21:11:01.628: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:01.632: Plate location is not a number.
+21:11:01.763: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:01.765: Plate location is not a number.
+21:11:01.902: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:01.905: Plate location is not a number.
+21:11:02.045: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:02.047: Plate location is not a number.
+21:11:02.186: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:02.188: Plate location is not a number.
+21:11:02.328: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:02.330: Plate location is not a number.
+21:11:02.469: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:02.471: Plate location is not a number.
+21:11:02.615: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:02.617: Plate location is not a number.
+21:11:02.770: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:02.773: Plate location is not a number.
+21:11:02.914: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:02.916: Plate location is not a number.
+21:11:03.058: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:03.061: Plate location is not a number.
+21:11:03.248: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:03.254: Plate location is not a number.
+21:11:03.399: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:03.405: Plate location is not a number.
+21:11:03.544: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:03.546: Plate location is not a number.
+21:11:03.690: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:03.693: Plate location is not a number.
+21:11:03.833: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:03.836: Plate location is not a number.
+21:11:03.968: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:03.972: Plate location is not a number.
+21:11:04.109: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:04.113: Plate location is not a number.
+21:11:04.248: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:04.251: Plate location is not a number.
+21:11:04.377: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:04.379: Plate location is not a number.
+21:11:04.518: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:04.519: Plate location is not a number.
+21:11:04.657: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:04.659: Plate location is not a number.
+21:11:04.792: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:04.795: Plate location is not a number.
+21:11:04.931: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:04.934: Plate location is not a number.
+21:11:05.054: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:05.057: Plate location is not a number.
+21:11:05.185: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:05.189: Plate location is not a number.
+21:11:05.326: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:05.330: Plate location is not a number.
+21:11:05.463: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:05.466: Plate location is not a number.
+21:11:05.600: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:05.602: Plate location is not a number.
+21:11:05.739: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:05.742: Plate location is not a number.
+21:11:05.870: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:05.873: Plate location is not a number.
+21:11:06.003: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:06.006: Plate location is not a number.
+21:11:06.134: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:06.138: Plate location is not a number.
+21:11:06.265: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:06.268: Plate location is not a number.
+21:11:06.400: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:06.402: Plate location is not a number.
+21:11:06.540: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:06.542: Plate location is not a number.
+21:11:06.678: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:06.681: Plate location is not a number.
+21:11:06.821: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:06.825: Plate location is not a number.
+21:11:06.970: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:06.973: Plate location is not a number.
+21:11:07.109: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:07.112: Plate location is not a number.
+21:11:07.250: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:07.253: Plate location is not a number.
+21:11:07.389: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:07.392: Plate location is not a number.
+21:11:07.524: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:07.527: Plate location is not a number.
+21:11:07.675: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:07.678: Plate location is not a number.
+21:11:07.819: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:07.823: Plate location is not a number.
+21:11:07.972: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:07.975: Plate location is not a number.
+21:11:08.132: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:08.134: Plate location is not a number.
+21:11:08.285: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:08.287: Plate location is not a number.
+21:11:08.423: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:08.446: Plate location is not a number.
+21:11:08.571: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:08.574: Plate location is not a number.
+21:11:08.729: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:08.732: Plate location is not a number.
+21:11:08.869: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:08.873: Plate location is not a number.
+21:11:09.002: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:09.005: Plate location is not a number.
+21:11:09.157: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:09.159: Plate location is not a number.
+21:11:09.321: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:09.325: Plate location is not a number.
+21:11:09.475: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:09.478: Plate location is not a number.
+21:11:09.610: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:09.614: Plate location is not a number.
+21:11:09.756: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:09.761: Plate location is not a number.
+21:11:09.907: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:09.910: Plate location is not a number.
+21:11:10.063: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:10.067: Plate location is not a number.
+21:11:10.209: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:10.212: Plate location is not a number.
+21:11:10.330: Message received: AIZCF, beans, 1, FIVE
+21:11:10.333: Plate location is not a number.
+21:11:10.474: Message received: AIZCF, beans, 1, FIVE
+21:11:10.478: Plate location is not a number.
+21:11:10.612: Message received: AIZCF, beans, 1, FIVE
+21:11:10.616: Plate location is not a number.
+21:11:10.749: Message received: AIZCF, beans, 1, FIVE
+21:11:10.753: Plate location is not a number.
+21:11:10.775: Message received: AIZCF,beans,0,letzgo
+21:11:10.790: Timer started.
+21:11:10.872: Message received: AIZCF, beans, 1, FIVE
+21:11:10.874: Plate location is not a number.
+21:11:10.987: Message received: AIZCF, beans, 1, FIVE
+21:11:10.989: Plate location is not a number.
+21:11:11.132: Message received: AIZCF, beans, 1, FIVE
+21:11:11.135: Plate location is not a number.
+21:11:11.276: Message received: AIZCF, beans, 1, FIVE
+21:11:11.280: Plate location is not a number.
+21:11:11.422: Message received: AIZCF, beans, 1, FIVE
+21:11:11.427: Plate location is not a number.
+21:11:11.558: Message received: AIZCF, beans, 1, FIVE
+21:11:11.562: Plate location is not a number.
+21:11:11.693: Message received: AIZCF, beans, 1, FIVE
+21:11:11.695: Plate location is not a number.
+21:11:11.833: Message received: AIZCF, beans, 1, FIVE
+21:11:11.836: Plate location is not a number.
+21:11:11.979: Message received: AIZCF, beans, 1, FIVE
+21:11:11.981: Plate location is not a number.
+21:11:12.117: Message received: AIZCF, beans, 1, FIVE
+21:11:12.119: Plate location is not a number.
+21:11:12.294: Message received: AIZCF, beans, 1, FIVE
+21:11:12.296: Plate location is not a number.
+21:11:12.469: Message received: AIZCF, beans, 1, FIVE
+21:11:12.472: Plate location is not a number.
+21:11:12.605: Message received: AIZCF, beans, 1, FIVE
+21:11:12.609: Plate location is not a number.
+21:11:12.752: Message received: AIZCF, beans, 1, FIVE
+21:11:12.757: Plate location is not a number.
+21:11:12.900: Message received: AIZCF, beans, 1, FIVE
+21:11:12.903: Plate location is not a number.
+21:11:13.042: Message received: AIZCF, beans, 1, FIVE
+21:11:13.045: Plate location is not a number.
+21:11:13.186: Message received: AIZCF, beans, 1, FIVE
+21:11:13.189: Plate location is not a number.
+21:11:13.313: Message received: AIZCF, beans, 1, FIVE
+21:11:13.317: Plate location is not a number.
+21:11:13.438: Message received: AIZCF, beans, 1, FIVE
+21:11:13.443: Plate location is not a number.
+21:11:13.577: Message received: AIZCF, beans, 1, FIVE
+21:11:13.580: Plate location is not a number.
+21:11:13.722: Message received: AIZCF, beans, 1, FIVE
+21:11:13.725: Plate location is not a number.
+21:11:13.862: Message received: AIZCF, beans, 1, FIVE
+21:11:13.865: Plate location is not a number.
+21:11:14.000: Message received: AIZCF, beans, 1, FIVE
+21:11:14.002: Plate location is not a number.
+21:11:14.142: Message received: AIZCF, beans, 1, FIVE
+21:11:14.145: Plate location is not a number.
+21:11:14.283: Message received: AIZCF, beans, 1, FIVE
+21:11:14.286: Plate location is not a number.
+21:11:14.420: Message received: AIZCF, beans, 1, FIVE
+21:11:14.422: Plate location is not a number.
+21:11:14.555: Message received: AIZCF, beans, 1, FIVE
+21:11:14.559: Plate location is not a number.
+21:11:14.696: Message received: AIZCF, beans, 1, FIVE
+21:11:14.701: Plate location is not a number.
+21:11:14.825: Message received: AIZCF, beans, 1, FIVE
+21:11:14.829: Plate location is not a number.
+21:11:14.970: Message received: AIZCF, beans, 1, FIVE
+21:11:14.975: Plate location is not a number.
+21:11:15.119: Message received: AIZCF, beans, 1, FIVE
+21:11:15.122: Plate location is not a number.
+21:11:15.255: Message received: AIZCF, beans, 1, FIVE
+21:11:15.259: Plate location is not a number.
+21:11:15.500: Message received: AIZCF, beans, 1, FIVE
+21:11:15.503: Plate location is not a number.
+21:11:15.645: Message received: AIZCF, beans, 1, FIVE
+21:11:15.650: Plate location is not a number.
+21:11:15.790: Message received: AIZCF, beans, 1, FIVE
+21:11:15.795: Plate location is not a number.
+21:11:15.933: Message received: AIZCF, beans, 1, FIVE
+21:11:15.937: Plate location is not a number.
+21:11:16.061: Message received: AIZCF, beans, 1, FIVE
+21:11:16.063: Plate location is not a number.
+21:11:16.195: Message received: AIZCF, beans, 1, FIVE
+21:11:16.198: Plate location is not a number.
+21:11:16.335: Message received: AIZCF, beans, 1, FIVE
+21:11:16.338: Plate location is not a number.
+21:11:16.478: Message received: AIZCF, beans, 1, FIVE
+21:11:16.481: Plate location is not a number.
+21:11:17.053: Message received: AIZCF, beans, 2, PRGF1
+21:11:17.055: Plate location is not a number.
+21:11:17.336: Message received: AIZCF, beans, 4, 7RGFT
+21:11:17.339: Plate location is not a number.
+21:11:17.480: Message received: AIZCF, beans, 2, PROFS
+21:11:17.484: Plate location is not a number.
+21:11:17.629: Message received: AIZCF, beans, 2, FROFS
+21:11:17.632: Plate location is not a number.
+21:11:17.767: Message received: AIZCF, beans, 2, FROFS
+21:11:17.770: Plate location is not a number.
+21:11:17.907: Message received: AIZCF, beans, 2, PROFS
+21:11:17.909: Plate location is not a number.
+21:11:18.056: Message received: AIZCF, beans, 2, PROFS
+21:11:18.059: Plate location is not a number.
+21:11:18.209: Message received: AIZCF, beans, 2, PROFS
+21:11:18.212: Plate location is not a number.
+21:11:18.357: Message received: AIZCF, beans, 2, PROFS
+21:11:18.360: Plate location is not a number.
+21:11:18.502: Message received: AIZCF, beans, 2, PROFS
+21:11:18.504: Plate location is not a number.
+21:11:18.615: Message received: AIZCF, beans, 2, PROFS
+21:11:18.617: Plate location is not a number.
+21:11:18.761: Message received: AIZCF, beans, 2, PROFS
+21:11:18.763: Plate location is not a number.
+21:11:18.895: Message received: AIZCF, beans, 2, PROFS
+21:11:18.898: Plate location is not a number.
+21:11:19.031: Message received: AIZCF, beans, 2, PROFS
+21:11:19.033: Plate location is not a number.
+21:11:19.193: Message received: AIZCF, beans, 2, PROFS
+21:11:19.196: Plate location is not a number.
+21:11:19.331: Message received: AIZCF, beans, 2, PROFS
+21:11:19.334: Plate location is not a number.
+21:11:19.469: Message received: AIZCF, beans, 2, PROFS
+21:11:19.472: Plate location is not a number.
+21:11:19.606: Message received: AIZCF, beans, 2, PROFS
+21:11:19.609: Plate location is not a number.
+21:11:19.745: Message received: AIZCF, beans, 2, PROFS
+21:11:19.748: Plate location is not a number.
+21:11:19.985: Message received: AIZCF, beans, 2, PROFS
+21:11:19.988: Plate location is not a number.
+21:11:20.128: Message received: AIZCF, beans, 2, PROFS
+21:11:20.131: Plate location is not a number.
+21:11:20.269: Message received: AIZCF, beans, 2, PROFS
+21:11:20.272: Plate location is not a number.
+21:11:20.419: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:20.422: Plate location is not a number.
+21:11:20.559: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:20.561: Plate location is not a number.
+21:11:20.705: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:20.708: Plate location is not a number.
+21:11:20.835: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:20.839: Plate location is not a number.
+21:11:20.973: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:20.976: Plate location is not a number.
+21:11:21.123: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:21.127: Plate location is not a number.
+21:11:21.270: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:21.273: Plate location is not a number.
+21:11:21.415: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:21.418: Plate location is not a number.
+21:11:21.542: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:21.544: Plate location is not a number.
+21:11:21.665: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:21.668: Plate location is not a number.
+21:11:21.817: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:21.821: Plate location is not a number.
+21:11:21.965: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:21.967: Plate location is not a number.
+21:11:22.104: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:22.108: Plate location is not a number.
+21:11:22.254: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:22.257: Plate location is not a number.
+21:11:22.403: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:22.406: Plate location is not a number.
+21:11:22.542: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:22.546: Plate location is not a number.
+21:11:22.678: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:22.681: Plate location is not a number.
+21:11:22.829: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:22.832: Plate location is not a number.
+21:11:22.972: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:22.975: Plate location is not a number.
+21:11:23.120: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:23.123: Plate location is not a number.
+21:11:23.252: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:23.254: Plate location is not a number.
+21:11:23.393: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:23.395: Plate location is not a number.
+21:11:23.535: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:23.539: Plate location is not a number.
+21:11:23.690: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:23.693: Plate location is not a number.
+21:11:23.829: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:23.833: Plate location is not a number.
+21:11:23.965: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:23.971: Plate location is not a number.
+21:11:24.100: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:24.104: Plate location is not a number.
+21:11:24.244: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:24.248: Plate location is not a number.
+21:11:24.391: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:24.397: Plate location is not a number.
+21:11:24.527: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:24.530: Plate location is not a number.
+21:11:24.668: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:24.674: Plate location is not a number.
+21:11:24.806: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:24.809: Plate location is not a number.
+21:11:24.950: Message received: AIZCF, beans, 3, PRANK QUIZ
+21:11:24.955: Plate location is not a number.
+21:11:25.403: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:25.406: Plate location is not a number.
+21:11:25.546: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:25.549: Plate location is not a number.
+21:11:25.687: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:25.690: Plate location is not a number.
+21:11:25.835: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:25.838: Plate location is not a number.
+21:11:25.980: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:25.983: Plate location is not a number.
+21:11:26.123: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:26.125: Plate location is not a number.
+21:11:26.266: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:26.269: Plate location is not a number.
+21:11:26.409: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:26.411: Plate location is not a number.
+21:11:26.553: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:26.556: Plate location is not a number.
+21:11:26.703: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:26.708: Plate location is not a number.
+21:11:26.859: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:26.862: Plate location is not a number.
+21:11:27.010: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:27.013: Plate location is not a number.
+21:11:27.139: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:27.141: Plate location is not a number.
+21:11:27.282: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:27.286: Plate location is not a number.
+21:11:27.417: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:27.421: Plate location is not a number.
+21:11:27.589: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:27.592: Plate location is not a number.
+21:11:27.833: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:27.837: Plate location is not a number.
+21:11:28.147: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:28.151: Plate location is not a number.
+21:11:28.446: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:28.448: Plate location is not a number.
+21:11:28.761: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:28.766: Plate location is not a number.
+21:11:29.073: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:29.075: Plate location is not a number.
+21:11:29.397: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:29.401: Plate location is not a number.
+21:11:29.706: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:29.710: Plate location is not a number.
+21:11:30.044: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:30.047: Plate location is not a number.
+21:11:30.346: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:30.350: Plate location is not a number.
+21:11:30.481: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:30.483: Plate location is not a number.
+21:11:30.613: Message received: AIZCF, beans, 4, FINALS WEEK
+21:11:30.617: Plate location is not a number.
+21:11:30.755: Message received: AIZCF, beans, 6, STRESS
+21:11:30.757: Plate location is not a number.
+21:11:30.902: Message received: AIZCF, beans, 6, STRESS
+21:11:30.906: Plate location is not a number.
+21:11:31.045: Message received: AIZCF, beans, 6, STRESS
+21:11:31.047: Plate location is not a number.
+21:11:31.184: Message received: AIZCF, beans, 6, 5TRESS
+21:11:31.187: Plate location is not a number.
+21:11:31.333: Message received: AIZCF, beans, 6, STRESS
+21:11:31.335: Plate location is not a number.
+21:11:31.472: Message received: AIZCF, beans, 6, 5TRESS
+21:11:31.474: Plate location is not a number.
+21:11:31.614: Message received: AIZCF, beans, 6, STRESS
+21:11:31.617: Plate location is not a number.
+21:11:31.744: Message received: AIZCF, beans, 6, STRESS
+21:11:31.748: Plate location is not a number.
+21:11:34.274: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:34.276: Plate location is not a number.
+21:11:34.420: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:34.423: Plate location is not a number.
+21:11:34.561: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:34.563: Plate location is not a number.
+21:11:34.708: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:34.710: Plate location is not a number.
+21:11:34.846: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:34.848: Plate location is not a number.
+21:11:34.987: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:34.989: Plate location is not a number.
+21:11:35.135: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:35.138: Plate location is not a number.
+21:11:35.282: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:35.286: Plate location is not a number.
+21:11:35.425: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:35.429: Plate location is not a number.
+21:11:35.552: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:35.554: Plate location is not a number.
+21:11:35.693: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:35.697: Plate location is not a number.
+21:11:35.843: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:35.846: Plate location is not a number.
+21:11:35.986: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:35.988: Plate location is not a number.
+21:11:36.125: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:36.128: Plate location is not a number.
+21:11:36.272: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:36.274: Plate location is not a number.
+21:11:36.413: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:36.416: Plate location is not a number.
+21:11:36.563: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:36.565: Plate location is not a number.
+21:11:36.707: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:36.709: Plate location is not a number.
+21:11:36.852: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:36.855: Plate location is not a number.
+21:11:36.996: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:36.999: Plate location is not a number.
+21:11:37.141: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:37.144: Plate location is not a number.
+21:11:37.281: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:37.284: Plate location is not a number.
+21:11:37.426: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:37.429: Plate location is not a number.
+21:11:37.567: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:37.569: Plate location is not a number.
+21:11:37.713: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:37.716: Plate location is not a number.
+21:11:37.856: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:37.859: Plate location is not a number.
+21:11:37.999: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:38.001: Plate location is not a number.
+21:11:38.145: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:38.148: Plate location is not a number.
+21:11:38.290: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:38.292: Plate location is not a number.
+21:11:38.434: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:38.436: Plate location is not a number.
+21:11:38.627: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:38.630: Plate location is not a number.
+21:11:38.853: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:38.857: Plate location is not a number.
+21:11:38.873: Message received: AIZCF,beans,-1,letzstop
+21:11:38.878: Timer stopped: 27.51 sec sim time (real time: 27sec).
+21:11:39.093: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:39.099: Plate location is not a number.
+21:11:39.285: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:39.289: Plate location is not a number.
+21:11:39.502: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:39.507: Plate location is not a number.
+21:11:39.692: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:39.695: Plate location is not a number.
+21:11:39.836: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:39.839: Plate location is not a number.
+21:11:39.986: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:39.990: Plate location is not a number.
+21:11:40.149: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:40.154: Plate location is not a number.
+21:11:40.291: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:40.294: Plate location is not a number.
+21:11:40.460: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:40.466: Plate location is not a number.
+21:11:40.657: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:40.662: Plate location is not a number.
+21:11:40.806: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:40.809: Plate location is not a number.
+21:11:40.952: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:40.956: Plate location is not a number.
+21:11:41.099: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:41.102: Plate location is not a number.
+21:11:41.248: Message received: AIZCF, beans, 7, FOUNTAIN PEN
+21:11:41.252: Plate location is not a number.
