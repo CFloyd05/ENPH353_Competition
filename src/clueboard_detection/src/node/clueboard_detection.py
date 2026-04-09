@@ -141,8 +141,8 @@ class ClueboardFinder:
                 if 0.4 < aspect_ratio < 2.5: # Adjust based on sign shape
                     filtered_contours.append(contour)
 
-        # # Draw for debugging
-        # filteredcontourimg = self.frame.copy()
+        # Draw for debugging
+        filteredcontourimg = self.frame.copy()
         # cv.drawContours(filteredcontourimg, filtered_contours, -1, (0, 255, 0), 2) # Thickness 2 makes it easier to see
 
         # plt.imshow(cv.cvtColor(filteredcontourimg, cv.COLOR_BGR2RGB))
@@ -159,8 +159,11 @@ class ClueboardFinder:
         if numberofcontours > 1:
 
             # print(len(self.filtered_contours))
-            
-            desiredcontour = numberofcontours-1
+            # Sort the filtered contours by area in descending order so that the largest contour (the board) is always at index 0
+            self.filtered_contours.sort(key=cv.contourArea, reverse=True)
+        
+            # Now the largest contour (the board) is ALWAYS at index 0
+            desiredcontour = 1
 
             
             perimeter = cv.arcLength(self.filtered_contours[desiredcontour], True)
