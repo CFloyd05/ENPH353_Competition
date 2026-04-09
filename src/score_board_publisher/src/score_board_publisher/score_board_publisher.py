@@ -39,4 +39,5 @@ def publish_clue(clue_type,clue_value)
   clue_output = "AIZCF, beans, " + clue_location.data() + ", " +  clue_value
   pub.publish(clue_output)
   pub_for_state(clue_location)
+  print(clue_type + ", " + clue_value)
   return("Good clue read")

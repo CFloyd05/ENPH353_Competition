@@ -41,12 +41,12 @@ class ClueboardFinder:
 
         # Tell us which part of the screen to look at
         self.screenfraction = 3
- 
+
         # Callback function begins here - this tells the node what to do when we receive an image
     def image_callback(self, msg):
-        
+
         if self.framecount == 0:
-            
+
             self.frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding= "bgr8")
 
 
@@ -128,13 +128,13 @@ class ClueboardFinder:
 
         for contour in self.contours:
             area = cv.contourArea(contour)
-            
+
             # 1. Area Filter
             if min_area < area:
                 # 2. Shape Filter (Aspect Ratio)
                 x, y, w, h = cv.boundingRect(contour)
                 aspect_ratio = float(w) / h
-                
+
                 if 0.4 < aspect_ratio < 2.5: # Adjust based on sign shape
                     filtered_contours.append(contour)
 
@@ -144,22 +144,22 @@ class ClueboardFinder:
 
         # plt.imshow(cv.cvtColor(filteredcontourimg, cv.COLOR_BGR2RGB))
         # plt.show()
-        
+
         return filtered_contours
-    
-        
+
+
     def perspectiveTransform(self):
 
         numberofcontours = len(self.filtered_contours)
-        
+
 
         if numberofcontours > 1:
 
             # print(len(self.filtered_contours))
-            
+
             desiredcontour = numberofcontours-1
 
-            
+
             perimeter = cv.arcLength(self.filtered_contours[desiredcontour], True)
             vertices = cv.approxPolyDP(self.filtered_contours[desiredcontour], 0.02*perimeter, True)
             ordered_vertices = self.order_points_for_perspective_transform(vertices.reshape(-1, 2).astype(np.float32)) # Reshape to match reference vertices and sort just to be safe
@@ -182,7 +182,7 @@ class ClueboardFinder:
                 # plt.imshow(cv.cvtColor(self.transformedImg, cv.COLOR_BGR2RGB))
                 # plt.show()
 
-        
+
 
     def order_points_for_perspective_transform(self, pts):
         # the first entry in the list is the top-left,
@@ -206,14 +206,14 @@ class ClueboardFinder:
         # return the ordered coordinates
         return rect
 
-    
+
     def changeClueboard(self):
-        
+
         msg = Bool()
         msg.data = self.clueboard
         self.pub.publish(msg)
 
-            
+
 
 
 if __name__ == '__main__':
