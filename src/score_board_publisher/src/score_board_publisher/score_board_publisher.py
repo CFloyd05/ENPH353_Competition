@@ -40,7 +40,7 @@ def publish_clue(clue_type,clue_value):
     print("Clue read bad, womp womp")
     return("Bad clue read")
 
-  clue_output = "AIZCF, beans, " + clue_location + ", " +  clue_value
+  clue_output = "AIZCF,beans," + clue_location + "," +  clue_value
   pub.publish(clue_output)
   print(clue_type + ", " + clue_value)
   pub_for_state.publish(clue_location)
