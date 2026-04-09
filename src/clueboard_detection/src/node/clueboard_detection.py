@@ -11,6 +11,7 @@ from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
 # Connor's character recognition
 from character_recognition.call_nn import read_board
+from score_board_publisher.score_board_publisher import publish_clue
 
 
 class ClueboardFinder:
@@ -22,7 +23,7 @@ class ClueboardFinder:
         self.pub = rospy.Publisher('/clueboard', Bool, queue_size=1)
         self.rate = rospy.Rate(2)
 
-        self.subscriber = rospy.Subscriber("/B1/rrbot/cameraFront/image_raw_front", Image, self.image_callback)
+        self.subscriber = rospy.Subscriber("/selected_camera_feed", Image, self.image_callback)
 
         self.bridge = CvBridge()
 
@@ -205,6 +206,11 @@ class ClueboardFinder:
 
         # return the ordered coordinates
         return rect
+    
+    def readClueboardandPublish(self):
+        if hasattr(self, 'transformedImg'):
+            type, clueboard_text = read_board(self.transformedImg)
+            publish_clue(type, clueboard_text)
 
     
     def changeClueboard(self):
