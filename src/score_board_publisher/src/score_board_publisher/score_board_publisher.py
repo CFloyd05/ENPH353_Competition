@@ -11,15 +11,15 @@ pub = rospy.Publisher('/score_tracker', String, queue_size=1)
 pub_for_state = rospy.Publisher('/clue_publish_updates', Int32, queue_size=1)
 
 clue_location = -2
-types = ["SIZE", "VICTIM", "CRIME", "TIME", "LAB", "MOTIVE", "WEAPON", "BANDIT"]
+types = ["SIZE", "VICTIM", "CRIME", "TIME", "PLACE", "MOTIVE", "WEAPON", "BANDIT"]
 
 def publish_clue(clue_type,clue_value):
-  # clue_type_actual = difflib.get_close_matches(clue_type, types, n=1, cutoff=0.6)
+  clue_type_actual = difflib.get_close_matches(clue_type, types, n=1, cutoff=0.6)
 
-  # if not clue_type_actual: # If the clue type is not recognized, we publish a bad clue read and return
-  #   print("no clue, womp womp")
-  #   return("Bad clue read")
-  # clue_type = clue_type_actual[0]
+  if not clue_type_actual: # If the clue type is not recognized, we publish a bad clue read and return
+    print("no clue, womp womp")
+    return("Bad clue read")
+  clue_type = clue_type_actual[0]
 
   if clue_type == 'SIZE':
     clue_location = '1'

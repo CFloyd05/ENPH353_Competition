@@ -1,0 +1,139 @@
+03:36:54.909: Clue SIZE: FIVE
+03:36:54.910: Clue VICTIM: PROFS
+03:36:54.910: Clue CRIME: PRANK QUIZ
+03:36:54.910: Clue TIME: FINALS WEEK
+03:36:54.911: Clue PLACE: LAB
+03:36:54.911: Clue MOTIVE: STRESS
+03:36:54.911: Clue WEAPON: FOUNTAIN PEN
+03:36:54.911: Clue BANDIT: DR JOKES
+03:36:57.372: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:57.373: Team total: 8 pts
+03:36:57.374: Awarded: 8 pts
+03:36:57.507: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:57.509: Awarded: 8 pts
+03:36:57.638: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:57.638: Awarded: 8 pts
+03:36:57.768: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:57.770: Awarded: 8 pts
+03:36:57.904: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:57.905: Awarded: 8 pts
+03:36:58.035: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:58.036: Awarded: 8 pts
+03:36:58.182: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:58.184: Awarded: 8 pts
+03:36:58.323: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:58.324: Awarded: 8 pts
+03:36:58.455: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:58.457: Awarded: 8 pts
+03:36:58.589: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:58.590: Awarded: 8 pts
+03:36:58.721: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:58.723: Awarded: 8 pts
+03:36:58.851: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:58.853: Awarded: 8 pts
+03:36:58.988: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:58.990: Awarded: 8 pts
+03:36:59.123: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:59.124: Awarded: 8 pts
+03:36:59.238: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:59.239: Awarded: 8 pts
+03:36:59.365: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:59.366: Awarded: 8 pts
+03:36:59.507: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:59.508: Awarded: 8 pts
+03:36:59.647: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:59.650: Awarded: 8 pts
+03:36:59.793: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:59.795: Awarded: 8 pts
+03:36:59.929: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:36:59.931: Awarded: 8 pts
+03:37:00.072: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:00.073: Awarded: 8 pts
+03:37:00.208: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:00.209: Awarded: 8 pts
+03:37:00.345: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:00.345: Awarded: 8 pts
+03:37:00.480: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:00.481: Awarded: 8 pts
+03:37:00.605: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:00.609: Awarded: 8 pts
+03:37:00.742: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:00.743: Awarded: 8 pts
+03:37:00.876: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:00.878: Awarded: 8 pts
+03:37:01.019: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:01.020: Awarded: 8 pts
+03:37:01.162: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:01.163: Awarded: 8 pts
+03:37:01.296: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:01.299: Awarded: 8 pts
+03:37:01.425: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:01.427: Awarded: 8 pts
+03:37:01.565: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:01.566: Awarded: 8 pts
+03:37:01.701: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:01.702: Awarded: 8 pts
+03:37:01.839: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:01.841: Awarded: 8 pts
+03:37:01.975: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:01.977: Awarded: 8 pts
+03:37:02.104: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:02.107: Awarded: 8 pts
+03:37:02.231: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:02.234: Awarded: 8 pts
+03:37:02.363: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:02.365: Awarded: 8 pts
+03:37:02.498: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:02.500: Awarded: 8 pts
+03:37:02.629: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:02.630: Awarded: 8 pts
+03:37:02.756: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:02.757: Awarded: 8 pts
+03:37:02.892: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:02.896: Awarded: 8 pts
+03:37:03.026: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:03.027: Awarded: 8 pts
+03:37:03.164: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:03.165: Awarded: 8 pts
+03:37:03.298: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:03.300: Awarded: 8 pts
+03:37:03.438: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:03.439: Awarded: 8 pts
+03:37:03.571: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:03.572: Awarded: 8 pts
+03:37:03.698: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:03.700: Awarded: 8 pts
+03:37:03.821: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:03.822: Awarded: 8 pts
+03:37:03.952: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:03.953: Awarded: 8 pts
+03:37:04.088: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:04.089: Awarded: 8 pts
+03:37:04.219: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:04.221: Awarded: 8 pts
+03:37:04.346: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:04.348: Awarded: 8 pts
+03:37:04.477: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:04.478: Awarded: 8 pts
+03:37:04.615: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:04.617: Awarded: 8 pts
+03:37:04.745: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:04.746: Awarded: 8 pts
+03:37:04.883: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:04.885: Awarded: 8 pts
+03:37:05.030: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:05.032: Awarded: 8 pts
+03:37:05.163: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:05.164: Awarded: 8 pts
+03:37:05.300: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:05.302: Awarded: 8 pts
+03:37:05.433: Message received: AIZCF,beans,7,FOUNTAIN PEN
+03:37:05.435: Awarded: 8 pts
+03:37:05.564: Message received: AIZCF,beans,1,FIVE
+03:37:05.567: Team total: 14 pts
+03:37:05.568: Awarded: 6 pts
+03:37:05.705: Message received: AIZCF,beans,1,FIVE
+03:37:05.706: Awarded: 6 pts
+03:37:05.846: Message received: AIZCF,beans,1,FIVE
+03:37:05.848: Awarded: 6 pts
+03:37:05.972: Message received: AIZCF,beans,0,letzgo
