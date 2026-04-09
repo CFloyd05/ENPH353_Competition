@@ -1,0 +1,612 @@
+19:39:25.674: Clue SIZE: FIVE
+19:39:25.677: Clue VICTIM: PROFS
+19:39:25.677: Clue CRIME: PRANK QUIZ
+19:39:25.679: Clue TIME: FINALS WEEK
+19:39:25.684: Clue PLACE: LAB
+19:39:25.687: Clue MOTIVE: STRESS
+19:39:25.689: Clue WEAPON: FOUNTAIN PEN
+19:39:25.691: Clue BANDIT: DR JOKES
+19:43:16.441: Message received: AIZCF,beans,0,letzgo
+19:43:16.442: Timer started.
+19:43:43.964: Message received: AIZCF,beans,-1,letzstop
+19:43:43.964: Timer stopped: 27.50 sec sim time (real time: 27sec).
+19:54:28.853: Message received: AIZCF,beans,0,letzgo
+19:54:28.859: Timer started.
+19:54:56.376: Message received: AIZCF,beans,-1,letzstop
+19:54:56.376: Timer stopped: 27.50 sec sim time (real time: 27sec).
+20:01:16.460: Message received: AIZCF,beans,0,letzgo
+20:01:16.461: Timer started.
+20:01:43.983: Message received: AIZCF,beans,-1,letzstop
+20:01:43.983: Timer stopped: 27.50 sec sim time (real time: 27sec).
+20:10:20.330: Message received: AIZCF,beans,0,letzgo
+20:10:20.337: Timer started.
+20:10:51.697: Message received: AIZCF,beans,0,letzgo
+20:10:51.697: Timer started.
+20:11:19.219: Message received: AIZCF,beans,-1,letzstop
+20:11:19.219: Timer stopped: 27.50 sec sim time (real time: 27sec).
+20:23:27.200: Message received: AIZCF, beans, 5, HY5TH7 O7HBB
+20:23:27.224: Plate location is not a number.
+20:23:27.337: Message received: AIZCF, beans, 5, HY5TH7 O7HBB
+20:23:27.339: Plate location is not a number.
+20:23:27.622: Message received: AIZCF, beans, 5, HY5TH7 O7HBB
+20:23:27.625: Plate location is not a number.
+20:23:28.061: Message received: AIZCF, beans, 5, 7Y5DH7 O7HBB
+20:23:28.063: Plate location is not a number.
+20:23:28.204: Message received: AIZCF, beans, 5, 7M5DH7 O7HBB
+20:23:28.205: Plate location is not a number.
+20:23:28.363: Message received: AIZCF, beans, 5, 7M5UH7 O7HBB
+20:23:28.365: Plate location is not a number.
+20:23:28.504: Message received: AIZCF, beans, 5, 7M5UH7 O7HBB
+20:23:28.505: Plate location is not a number.
+20:23:28.654: Message received: AIZCF, beans, 5, 7M5UH7 O7HBB
+20:23:28.656: Plate location is not a number.
+20:23:28.792: Message received: AIZCF, beans, 5, 7M5UH7 O7HBB
+20:23:28.793: Plate location is not a number.
+20:23:28.962: Message received: AIZCF, beans, 5, 7M5UH7 O7HBB
+20:23:28.963: Plate location is not a number.
+20:23:29.105: Message received: AIZCF, beans, 5, TM5UH7 O7HBB
+20:23:29.106: Plate location is not a number.
+20:23:29.248: Message received: AIZCF, beans, 5, TM5UH7 O7HBB
+20:23:29.249: Plate location is not a number.
+20:23:29.433: Message received: AIZCF, beans, 5, TMYUH7 77HBB
+20:23:29.434: Plate location is not a number.
+20:23:29.605: Message received: AIZCF, beans, 5, TMYUH7 O7HBB
+20:23:29.606: Plate location is not a number.
+20:23:29.760: Message received: AIZCF, beans, 5, TMYUH7 O7HBB
+20:23:29.763: Plate location is not a number.
+20:23:29.971: Message received: AIZCF, beans, 5, THYUH5 77HBB
+20:23:29.973: Plate location is not a number.
+20:23:30.164: Message received: AIZCF, beans, 5, TMYUH7 77HBB
+20:23:30.166: Plate location is not a number.
+20:23:30.380: Message received: AIZCF, beans, 5, THYUH5 77HBB
+20:23:30.383: Plate location is not a number.
+20:23:30.587: Message received: AIZCF, beans, 5, T9YUH5 77HBB
+20:23:30.590: Plate location is not a number.
+20:23:30.738: Message received: AIZCF, beans, 5, T9YUH5 77HBB
+20:23:30.739: Plate location is not a number.
+20:23:30.906: Message received: AIZCF, beans, 5, T9YUH5 77HBB
+20:23:30.910: Plate location is not a number.
+20:23:31.067: Message received: AIZCF, beans, 5, T9YUH5 77HBB
+20:23:31.068: Plate location is not a number.
+20:23:31.277: Message received: AIZCF, beans, 5, T9YUH5 77HBB
+20:23:31.278: Plate location is not a number.
+20:23:31.482: Message received: AIZCF, beans, 5, T9YUH5 57HBB
+20:23:31.483: Plate location is not a number.
+20:23:31.712: Message received: AIZCF, beans, 5, T9YUH5 77HBB
+20:23:31.715: Plate location is not a number.
+20:23:31.927: Message received: AIZCF, beans, 5, T9YUH5 57HBB
+20:23:31.930: Plate location is not a number.
+20:23:32.181: Message received: AIZCF, beans, 5, T9YUH5 57HBB
+20:23:32.184: Plate location is not a number.
+20:23:32.479: Message received: AIZCF, beans, 5, T9YUH5 57HBB
+20:23:32.482: Plate location is not a number.
+20:23:32.737: Message received: AIZCF, beans, 5, TVYUH5 57HBB
+20:23:32.739: Plate location is not a number.
+20:23:32.879: Message received: AIZCF, beans, 5, TVYUH5 57HBB
+20:23:32.881: Plate location is not a number.
+20:23:33.034: Message received: AIZCF, beans, 5, TVTVH5 57HBB
+20:23:33.036: Plate location is not a number.
+20:24:29.887: Message received: AIZCF, beans, 1, FIVE
+20:24:29.888: Plate location is not a number.
+20:24:30.043: Message received: AIZCF, beans, 1, FIVE
+20:24:30.045: Plate location is not a number.
+20:24:30.179: Message received: AIZCF, beans, 1, FIVE
+20:24:30.179: Plate location is not a number.
+20:24:30.304: Message received: AIZCF, beans, 1, FIVE
+20:24:30.306: Plate location is not a number.
+20:24:30.451: Message received: AIZCF, beans, 1, FIVE
+20:24:30.452: Plate location is not a number.
+20:24:30.588: Message received: AIZCF, beans, 1, FIVE
+20:24:30.590: Plate location is not a number.
+20:24:30.608: Message received: AIZCF,beans,0,letzgo
+20:24:30.615: Timer started.
+20:24:30.735: Message received: AIZCF, beans, 1, FIVE
+20:24:30.736: Plate location is not a number.
+20:24:30.888: Message received: AIZCF, beans, 1, FIVE
+20:24:30.889: Plate location is not a number.
+20:24:31.026: Message received: AIZCF, beans, 1, FIVE
+20:24:31.028: Plate location is not a number.
+20:24:31.155: Message received: AIZCF, beans, 1, FIVE
+20:24:31.156: Plate location is not a number.
+20:24:31.298: Message received: AIZCF, beans, 1, FIVE
+20:24:31.300: Plate location is not a number.
+20:24:31.433: Message received: AIZCF, beans, 1, FIVE
+20:24:31.434: Plate location is not a number.
+20:24:31.612: Message received: AIZCF, beans, 1, FIVE
+20:24:31.614: Plate location is not a number.
+20:24:31.858: Message received: AIZCF, beans, 1, FIVE
+20:24:31.861: Plate location is not a number.
+20:24:32.062: Message received: AIZCF, beans, 1, FIVE
+20:24:32.063: Plate location is not a number.
+20:24:32.212: Message received: AIZCF, beans, 1, FIVE
+20:24:32.213: Plate location is not a number.
+20:24:32.357: Message received: AIZCF, beans, 1, FIVE
+20:24:32.359: Plate location is not a number.
+20:24:32.507: Message received: AIZCF, beans, 1, FIVE
+20:24:32.509: Plate location is not a number.
+20:24:32.664: Message received: AIZCF, beans, 1, FIVE
+20:24:32.667: Plate location is not a number.
+20:24:32.805: Message received: AIZCF, beans, 1, FIVE
+20:24:32.807: Plate location is not a number.
+20:24:32.955: Message received: AIZCF, beans, 1, FIVE
+20:24:32.957: Plate location is not a number.
+20:24:33.174: Message received: AIZCF, beans, 1, FIVE
+20:24:33.176: Plate location is not a number.
+20:24:33.382: Message received: AIZCF, beans, 1, FIVE
+20:24:33.385: Plate location is not a number.
+20:24:33.576: Message received: AIZCF, beans, 1, FIVE
+20:24:33.578: Plate location is not a number.
+20:24:33.788: Message received: AIZCF, beans, 1, FIVE
+20:24:33.790: Plate location is not a number.
+20:24:33.994: Message received: AIZCF, beans, 1, FIVE
+20:24:33.998: Plate location is not a number.
+20:24:34.161: Message received: AIZCF, beans, 1, FIVE
+20:24:34.163: Plate location is not a number.
+20:24:34.325: Message received: AIZCF, beans, 1, FIVE
+20:24:34.327: Plate location is not a number.
+20:24:34.465: Message received: AIZCF, beans, 1, FIVE
+20:24:34.466: Plate location is not a number.
+20:24:34.602: Message received: AIZCF, beans, 1, FIVE
+20:24:34.605: Plate location is not a number.
+20:24:34.734: Message received: AIZCF, beans, 1, FIVE
+20:24:34.737: Plate location is not a number.
+20:24:34.869: Message received: AIZCF, beans, 1, FIVE
+20:24:34.891: Plate location is not a number.
+20:24:35.062: Message received: AIZCF, beans, 1, FIVE
+20:24:35.065: Plate location is not a number.
+20:24:36.757: Message received: AIZCF, beans, 2, PRGFS
+20:24:36.759: Plate location is not a number.
+20:24:36.900: Message received: AIZCF, beans, 2, PRUFS
+20:24:36.903: Plate location is not a number.
+20:24:37.057: Message received: AIZCF, beans, 2, PROFS
+20:24:37.058: Plate location is not a number.
+20:24:37.210: Message received: AIZCF, beans, 2, PRGFS
+20:24:37.211: Plate location is not a number.
+20:24:37.350: Message received: AIZCF, beans, 2, PROFS
+20:24:37.352: Plate location is not a number.
+20:24:37.503: Message received: AIZCF, beans, 2, PRGFS
+20:24:37.503: Plate location is not a number.
+20:24:37.650: Message received: AIZCF, beans, 2, PROFS
+20:24:37.652: Plate location is not a number.
+20:24:37.791: Message received: AIZCF, beans, 2, PROFS
+20:24:37.793: Plate location is not a number.
+20:24:37.931: Message received: AIZCF, beans, 2, PROFS
+20:24:37.932: Plate location is not a number.
+20:24:38.069: Message received: AIZCF, beans, 2, PROFS
+20:24:38.070: Plate location is not a number.
+20:24:38.216: Message received: AIZCF, beans, 2, PROFS
+20:24:38.218: Plate location is not a number.
+20:24:38.365: Message received: AIZCF, beans, 2, PROFS
+20:24:38.366: Plate location is not a number.
+20:24:38.507: Message received: AIZCF, beans, 2, PROFS
+20:24:38.508: Plate location is not a number.
+20:24:38.648: Message received: AIZCF, beans, 2, PROFS
+20:24:38.651: Plate location is not a number.
+20:24:38.789: Message received: AIZCF, beans, 2, PROFS
+20:24:38.791: Plate location is not a number.
+20:24:38.931: Message received: AIZCF, beans, 2, PROFS
+20:24:38.933: Plate location is not a number.
+20:24:39.074: Message received: AIZCF, beans, 2, PROFS
+20:24:39.076: Plate location is not a number.
+20:24:39.213: Message received: AIZCF, beans, 2, PROFS
+20:24:39.214: Plate location is not a number.
+20:24:39.355: Message received: AIZCF, beans, 2, PROFS
+20:24:39.357: Plate location is not a number.
+20:24:39.496: Message received: AIZCF, beans, 2, PROFS
+20:24:39.498: Plate location is not a number.
+20:24:39.667: Message received: AIZCF, beans, 2, PROFS
+20:24:39.668: Plate location is not a number.
+20:24:39.946: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:39.948: Plate location is not a number.
+20:24:40.086: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:40.087: Plate location is not a number.
+20:24:40.521: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:40.524: Plate location is not a number.
+20:24:40.660: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:40.662: Plate location is not a number.
+20:24:40.804: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:40.805: Plate location is not a number.
+20:24:40.948: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:40.950: Plate location is not a number.
+20:24:41.092: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:41.094: Plate location is not a number.
+20:24:41.244: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:41.246: Plate location is not a number.
+20:24:41.392: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:41.395: Plate location is not a number.
+20:24:41.544: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:41.545: Plate location is not a number.
+20:24:41.687: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:41.689: Plate location is not a number.
+20:24:41.854: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:41.857: Plate location is not a number.
+20:24:42.022: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:42.024: Plate location is not a number.
+20:24:42.164: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:42.165: Plate location is not a number.
+20:24:42.349: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:42.351: Plate location is not a number.
+20:24:42.512: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:42.513: Plate location is not a number.
+20:24:42.700: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:42.702: Plate location is not a number.
+20:24:42.845: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:42.847: Plate location is not a number.
+20:24:42.989: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:42.991: Plate location is not a number.
+20:24:43.137: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:43.141: Plate location is not a number.
+20:24:43.262: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:43.263: Plate location is not a number.
+20:24:43.403: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:43.405: Plate location is not a number.
+20:24:43.546: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:43.548: Plate location is not a number.
+20:24:43.688: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:43.689: Plate location is not a number.
+20:24:43.826: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:43.829: Plate location is not a number.
+20:24:43.971: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:43.972: Plate location is not a number.
+20:24:44.084: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:44.085: Plate location is not a number.
+20:24:44.232: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:44.234: Plate location is not a number.
+20:24:44.376: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:44.378: Plate location is not a number.
+20:24:44.525: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:44.527: Plate location is not a number.
+20:24:44.658: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:44.660: Plate location is not a number.
+20:24:44.791: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:24:44.793: Plate location is not a number.
+20:24:45.081: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:45.083: Plate location is not a number.
+20:24:45.218: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:45.220: Plate location is not a number.
+20:24:45.364: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:45.367: Plate location is not a number.
+20:24:45.508: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:45.510: Plate location is not a number.
+20:24:45.659: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:45.661: Plate location is not a number.
+20:24:45.801: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:45.802: Plate location is not a number.
+20:24:45.949: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:45.951: Plate location is not a number.
+20:24:46.089: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:46.091: Plate location is not a number.
+20:24:46.233: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:46.236: Plate location is not a number.
+20:24:46.386: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:46.388: Plate location is not a number.
+20:24:46.530: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:46.533: Plate location is not a number.
+20:24:46.679: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:46.681: Plate location is not a number.
+20:24:46.832: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:46.832: Plate location is not a number.
+20:24:46.969: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:46.970: Plate location is not a number.
+20:24:47.117: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:47.119: Plate location is not a number.
+20:24:47.268: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:47.269: Plate location is not a number.
+20:24:47.487: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:47.488: Plate location is not a number.
+20:24:47.795: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:47.797: Plate location is not a number.
+20:24:48.093: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:48.094: Plate location is not a number.
+20:24:48.397: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:48.398: Plate location is not a number.
+20:24:48.689: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:48.691: Plate location is not a number.
+20:24:49.020: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:49.021: Plate location is not a number.
+20:24:49.323: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:49.324: Plate location is not a number.
+20:24:49.631: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:49.633: Plate location is not a number.
+20:24:49.928: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:49.930: Plate location is not a number.
+20:24:50.239: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:50.240: Plate location is not a number.
+20:24:50.381: Message received: AIZCF, beans, 4, FINALS WEEK
+20:24:50.383: Plate location is not a number.
+20:24:50.555: Message received: AIZCF, beans, 6, STRESS
+20:24:50.558: Plate location is not a number.
+20:24:50.722: Message received: AIZCF, beans, 6, STRESS
+20:24:50.724: Plate location is not a number.
+20:24:50.871: Message received: AIZCF, beans, 6, 5TRESS
+20:24:50.874: Plate location is not a number.
+20:24:51.031: Message received: AIZCF, beans, 6, STRESS
+20:24:51.033: Plate location is not a number.
+20:24:51.178: Message received: AIZCF, beans, 6, STRESS
+20:24:51.180: Plate location is not a number.
+20:24:51.320: Message received: AIZCF, beans, 6, 5TRESS
+20:24:51.322: Plate location is not a number.
+20:24:51.465: Message received: AIZCF, beans, 6, STRESS
+20:24:51.467: Plate location is not a number.
+20:24:51.616: Message received: AIZCF, beans, 6, STRESS
+20:24:51.617: Plate location is not a number.
+20:24:58.659: Message received: AIZCF,beans,-1,letzstop
+20:24:58.662: Timer stopped: 27.50 sec sim time (real time: 28sec).
+20:26:29.327: Message received: AIZCF, beans, 1, FIVE
+20:26:29.328: Plate location is not a number.
+20:26:29.460: Message received: AIZCF, beans, 1, FIVE
+20:26:29.462: Plate location is not a number.
+20:26:29.606: Message received: AIZCF, beans, 1, FIVE
+20:26:29.609: Plate location is not a number.
+20:26:29.735: Message received: AIZCF,beans,0,letzgo
+20:26:29.738: Timer started.
+20:26:29.756: Message received: AIZCF, beans, 1, FIVE
+20:26:29.757: Plate location is not a number.
+20:26:29.907: Message received: AIZCF, beans, 1, FIVE
+20:26:29.909: Plate location is not a number.
+20:26:30.045: Message received: AIZCF, beans, 1, FIVE
+20:26:30.046: Plate location is not a number.
+20:26:30.184: Message received: AIZCF, beans, 1, FIVE
+20:26:30.185: Plate location is not a number.
+20:26:30.333: Message received: AIZCF, beans, 1, FIVE
+20:26:30.334: Plate location is not a number.
+20:26:30.471: Message received: AIZCF, beans, 1, FIVE
+20:26:30.472: Plate location is not a number.
+20:26:30.618: Message received: AIZCF, beans, 1, FIVE
+20:26:30.619: Plate location is not a number.
+20:26:30.759: Message received: AIZCF, beans, 1, FIVE
+20:26:30.761: Plate location is not a number.
+20:26:30.899: Message received: AIZCF, beans, 1, FIVE
+20:26:30.902: Plate location is not a number.
+20:26:31.038: Message received: AIZCF, beans, 1, FIVE
+20:26:31.040: Plate location is not a number.
+20:26:31.177: Message received: AIZCF, beans, 1, FIVE
+20:26:31.179: Plate location is not a number.
+20:26:31.319: Message received: AIZCF, beans, 1, FIVE
+20:26:31.321: Plate location is not a number.
+20:26:31.462: Message received: AIZCF, beans, 1, FIVE
+20:26:31.464: Plate location is not a number.
+20:26:31.614: Message received: AIZCF, beans, 1, FIVE
+20:26:31.616: Plate location is not a number.
+20:26:31.754: Message received: AIZCF, beans, 1, FIVE
+20:26:31.756: Plate location is not a number.
+20:26:31.875: Message received: AIZCF, beans, 1, FIVE
+20:26:31.876: Plate location is not a number.
+20:26:32.009: Message received: AIZCF, beans, 1, FIVE
+20:26:32.011: Plate location is not a number.
+20:26:32.142: Message received: AIZCF, beans, 1, FIVE
+20:26:32.145: Plate location is not a number.
+20:26:32.285: Message received: AIZCF, beans, 1, FIVE
+20:26:32.287: Plate location is not a number.
+20:26:32.418: Message received: AIZCF, beans, 1, FIVE
+20:26:32.420: Plate location is not a number.
+20:26:32.553: Message received: AIZCF, beans, 1, FIVE
+20:26:32.556: Plate location is not a number.
+20:26:32.700: Message received: AIZCF, beans, 1, FIVE
+20:26:32.702: Plate location is not a number.
+20:26:32.841: Message received: AIZCF, beans, 1, FIVE
+20:26:32.843: Plate location is not a number.
+20:26:32.955: Message received: AIZCF, beans, 1, FIVE
+20:26:32.956: Plate location is not a number.
+20:26:33.076: Message received: AIZCF, beans, 1, FIVE
+20:26:33.077: Plate location is not a number.
+20:26:33.188: Message received: AIZCF, beans, 1, FIVE
+20:26:33.190: Plate location is not a number.
+20:26:33.338: Message received: AIZCF, beans, 1, FIVE
+20:26:33.339: Plate location is not a number.
+20:26:33.474: Message received: AIZCF, beans, 1, FIVE
+20:26:33.475: Plate location is not a number.
+20:26:33.606: Message received: AIZCF, beans, 1, FIVE
+20:26:33.608: Plate location is not a number.
+20:26:33.721: Message received: AIZCF, beans, 1, FIVE
+20:26:33.721: Plate location is not a number.
+20:26:33.833: Message received: AIZCF, beans, 1, FIVE
+20:26:33.834: Plate location is not a number.
+20:26:33.942: Message received: AIZCF, beans, 1, FIVE
+20:26:33.943: Plate location is not a number.
+20:26:34.089: Message received: AIZCF, beans, 1, FIVE
+20:26:34.090: Plate location is not a number.
+20:26:34.303: Message received: AIZCF, beans, 1, FIVE
+20:26:34.306: Plate location is not a number.
+20:26:34.605: Message received: AIZCF, beans, 1, FIVE
+20:26:34.607: Plate location is not a number.
+20:26:34.745: Message received: AIZCF, beans, 1, FIVE
+20:26:34.747: Plate location is not a number.
+20:26:34.893: Message received: AIZCF, beans, 1, FIVE
+20:26:34.895: Plate location is not a number.
+20:26:35.030: Message received: AIZCF, beans, 1, FIVE
+20:26:35.031: Plate location is not a number.
+20:26:35.163: Message received: AIZCF, beans, 1, FIVE
+20:26:35.165: Plate location is not a number.
+20:26:35.299: Message received: AIZCF, beans, 1, FIVE
+20:26:35.302: Plate location is not a number.
+20:26:35.448: Message received: AIZCF, beans, 1, FIVE
+20:26:35.449: Plate location is not a number.
+20:26:35.879: Message received: AIZCF, beans, 2, 7RGFT
+20:26:35.880: Plate location is not a number.
+20:26:36.021: Message received: AIZCF, beans, 2, PRGFS
+20:26:36.023: Plate location is not a number.
+20:26:36.159: Message received: AIZCF, beans, 2, PRGFS
+20:26:36.161: Plate location is not a number.
+20:26:36.303: Message received: AIZCF, beans, 2, PROFS
+20:26:36.305: Plate location is not a number.
+20:26:36.450: Message received: AIZCF, beans, 2, PRGFS
+20:26:36.452: Plate location is not a number.
+20:26:36.605: Message received: AIZCF, beans, 2, PROFS
+20:26:36.607: Plate location is not a number.
+20:26:36.746: Message received: AIZCF, beans, 2, PROFS
+20:26:36.747: Plate location is not a number.
+20:26:36.890: Message received: AIZCF, beans, 2, PROFS
+20:26:36.892: Plate location is not a number.
+20:26:37.043: Message received: AIZCF, beans, 2, PROFS
+20:26:37.044: Plate location is not a number.
+20:26:37.192: Message received: AIZCF, beans, 2, PROFS
+20:26:37.195: Plate location is not a number.
+20:26:37.371: Message received: AIZCF, beans, 2, PROFS
+20:26:37.374: Plate location is not a number.
+20:26:37.517: Message received: AIZCF, beans, 2, PROFS
+20:26:37.518: Plate location is not a number.
+20:26:37.660: Message received: AIZCF, beans, 2, PROFS
+20:26:37.662: Plate location is not a number.
+20:26:37.774: Message received: AIZCF, beans, 2, PROFS
+20:26:37.775: Plate location is not a number.
+20:26:37.913: Message received: AIZCF, beans, 2, PROFS
+20:26:37.915: Plate location is not a number.
+20:26:38.059: Message received: AIZCF, beans, 2, PROFS
+20:26:38.061: Plate location is not a number.
+20:26:38.203: Message received: AIZCF, beans, 2, PROFS
+20:26:38.204: Plate location is not a number.
+20:26:38.347: Message received: AIZCF, beans, 2, PROFS
+20:26:38.348: Plate location is not a number.
+20:26:38.478: Message received: AIZCF, beans, 2, PROFS
+20:26:38.479: Plate location is not a number.
+20:26:38.632: Message received: AIZCF, beans, 2, PROFS
+20:26:38.634: Plate location is not a number.
+20:26:38.903: Message received: AIZCF, beans, 2, PROFS
+20:26:38.905: Plate location is not a number.
+20:26:39.041: Message received: AIZCF, beans, 2, PROFS
+20:26:39.043: Plate location is not a number.
+20:26:39.186: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:39.188: Plate location is not a number.
+20:26:39.328: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:39.330: Plate location is not a number.
+20:26:39.478: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:39.480: Plate location is not a number.
+20:26:39.612: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:39.614: Plate location is not a number.
+20:26:39.748: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:39.750: Plate location is not a number.
+20:26:39.895: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:39.896: Plate location is not a number.
+20:26:40.042: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:40.043: Plate location is not a number.
+20:26:40.176: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:40.177: Plate location is not a number.
+20:26:40.317: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:40.319: Plate location is not a number.
+20:26:40.452: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:40.453: Plate location is not a number.
+20:26:40.579: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:40.581: Plate location is not a number.
+20:26:40.689: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:40.691: Plate location is not a number.
+20:26:40.835: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:40.837: Plate location is not a number.
+20:26:40.966: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:40.968: Plate location is not a number.
+20:26:41.107: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:41.109: Plate location is not a number.
+20:26:41.253: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:41.255: Plate location is not a number.
+20:26:41.390: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:41.392: Plate location is not a number.
+20:26:41.529: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:41.530: Plate location is not a number.
+20:26:41.652: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:41.654: Plate location is not a number.
+20:26:41.791: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:41.792: Plate location is not a number.
+20:26:41.940: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:41.941: Plate location is not a number.
+20:26:42.076: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:42.077: Plate location is not a number.
+20:26:42.223: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:42.226: Plate location is not a number.
+20:26:42.353: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:42.355: Plate location is not a number.
+20:26:42.493: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:42.496: Plate location is not a number.
+20:26:42.633: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:42.636: Plate location is not a number.
+20:26:42.762: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:42.764: Plate location is not a number.
+20:26:42.896: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:42.897: Plate location is not a number.
+20:26:43.032: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:43.033: Plate location is not a number.
+20:26:43.172: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:43.174: Plate location is not a number.
+20:26:43.309: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:43.312: Plate location is not a number.
+20:26:43.441: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:43.443: Plate location is not a number.
+20:26:43.580: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:43.581: Plate location is not a number.
+20:26:43.721: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:43.724: Plate location is not a number.
+20:26:43.859: Message received: AIZCF, beans, 3, PRANK QUIZ
+20:26:43.862: Plate location is not a number.
+20:26:44.151: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:44.154: Plate location is not a number.
+20:26:44.294: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:44.295: Plate location is not a number.
+20:26:44.437: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:44.438: Plate location is not a number.
+20:26:44.580: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:44.581: Plate location is not a number.
+20:26:44.717: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:44.719: Plate location is not a number.
+20:26:44.859: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:44.861: Plate location is not a number.
+20:26:45.002: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:45.003: Plate location is not a number.
+20:26:45.146: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:45.148: Plate location is not a number.
+20:26:45.299: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:45.302: Plate location is not a number.
+20:26:45.433: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:45.435: Plate location is not a number.
+20:26:45.577: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:45.579: Plate location is not a number.
+20:26:45.721: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:45.723: Plate location is not a number.
+20:26:45.859: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:45.861: Plate location is not a number.
+20:26:45.989: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:45.991: Plate location is not a number.
+20:26:46.126: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:46.127: Plate location is not a number.
+20:26:46.265: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:46.267: Plate location is not a number.
+20:26:46.434: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:46.435: Plate location is not a number.
+20:26:46.649: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:46.652: Plate location is not a number.
+20:26:46.944: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:46.946: Plate location is not a number.
+20:26:47.255: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:47.257: Plate location is not a number.
+20:26:47.558: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:47.559: Plate location is not a number.
+20:26:47.875: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:47.878: Plate location is not a number.
+20:26:48.163: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:48.166: Plate location is not a number.
+20:26:48.468: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:48.471: Plate location is not a number.
+20:26:48.781: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:48.783: Plate location is not a number.
+20:26:49.055: Message received: AIZCF, beans, 4, FINALS WEEK
+20:26:49.056: Plate location is not a number.
+20:26:49.380: Message received: AIZCF, beans, 6, 5TRES5
+20:26:49.381: Plate location is not a number.
+20:26:49.528: Message received: AIZCF, beans, 6, STRESS
+20:26:49.531: Plate location is not a number.
+20:26:49.656: Message received: AIZCF, beans, 6, 5TRESS
+20:26:49.658: Plate location is not a number.
+20:26:49.797: Message received: AIZCF, beans, 6, 5TRESS
+20:26:49.800: Plate location is not a number.
+20:26:49.936: Message received: AIZCF, beans, 6, STRESS
+20:26:49.937: Plate location is not a number.
+20:26:50.065: Message received: AIZCF, beans, 6, STRESS
+20:26:50.067: Plate location is not a number.
+20:26:50.202: Message received: AIZCF, beans, 6, STRESS
+20:26:50.204: Plate location is not a number.
+20:26:50.352: Message received: AIZCF, beans, 6, STRESS
+20:26:50.355: Plate location is not a number.
+20:26:50.506: Message received: AIZCF, beans, 6, STRESS
+20:26:50.508: Plate location is not a number.
+20:26:50.647: Message received: AIZCF, beans, 6, STRESS
+20:26:50.649: Plate location is not a number.
+20:26:57.566: Message received: AIZCF,beans,-1,letzstop
+20:26:57.567: Timer stopped: 27.39 sec sim time (real time: 28sec).

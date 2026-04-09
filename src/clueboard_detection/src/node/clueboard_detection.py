@@ -78,6 +78,8 @@ class ClueboardFinder:
 
             self.perspectiveTransform()
 
+            self.readClueboardandPublish()
+
 
 
         # Update the clueboard thing
@@ -211,6 +213,7 @@ class ClueboardFinder:
         if hasattr(self, 'transformedImg'):
             type, clueboard_text = read_board(self.transformedImg)
             publish_clue(type, clueboard_text)
+            print(f"Clueboard read: {type} - {clueboard_text}")
 
     
     def changeClueboard(self):
