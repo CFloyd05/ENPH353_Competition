@@ -1,0 +1,7 @@
+set(score_board_publisher_SETUP_PY_SETUP_MODULE "setuptools")
+set(score_board_publisher_SETUP_PY_VERSION "0.0.0")
+set(score_board_publisher_SETUP_PY_SCRIPTS "")
+set(score_board_publisher_SETUP_PY_PACKAGES "score_board_publisher")
+set(score_board_publisher_SETUP_PY_PACKAGE_DIRS "src/score_board_publisher")
+set(score_board_publisher_SETUP_PY_MODULES "")
+set(score_board_publisher_SETUP_PY_MODULE_DIRS "")

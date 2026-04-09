@@ -1,0 +1,8 @@
+prefix=/home/fizzer/ros_ws/devel
+
+Name: imitation_learning_controller
+Description: Description of imitation_learning_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
