@@ -11,6 +11,7 @@ from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
 # Connor's character recognition
 from character_recognition.call_nn import read_board
+from score_board_publisher.score_board_publisher import publish_clue
 
 
 class ClueboardFinder:
@@ -22,7 +23,7 @@ class ClueboardFinder:
         self.pub = rospy.Publisher('/clueboard', Bool, queue_size=1)
         self.rate = rospy.Rate(2)
 
-        self.subscriber = rospy.Subscriber("/B1/rrbot/cameraFront/image_raw_front", Image, self.image_callback)
+        self.subscriber = rospy.Subscriber("/selected_camera_feed", Image, self.image_callback)
 
         self.bridge = CvBridge()
 
@@ -76,6 +77,8 @@ class ClueboardFinder:
             self.changeClueboard()
 
             self.perspectiveTransform()
+
+            self.readClueboardandPublish()
 
 
 
@@ -138,8 +141,8 @@ class ClueboardFinder:
                 if 0.4 < aspect_ratio < 2.5: # Adjust based on sign shape
                     filtered_contours.append(contour)
 
-        # # Draw for debugging
-        # filteredcontourimg = self.frame.copy()
+        # Draw for debugging
+        filteredcontourimg = self.frame.copy()
         # cv.drawContours(filteredcontourimg, filtered_contours, -1, (0, 255, 0), 2) # Thickness 2 makes it easier to see
 
         # plt.imshow(cv.cvtColor(filteredcontourimg, cv.COLOR_BGR2RGB))
@@ -157,7 +160,11 @@ class ClueboardFinder:
 
             # print(len(self.filtered_contours))
 
-            desiredcontour = numberofcontours-1
+            # Sort the filtered contours by area in descending order so that the largest contour (the board) is always at index 0
+            self.filtered_contours.sort(key=cv.contourArea, reverse=True)
+
+            # Now the largest contour (the board) is ALWAYS at index 0
+            desiredcontour = 1
 
 
             perimeter = cv.arcLength(self.filtered_contours[desiredcontour], True)
@@ -205,6 +212,12 @@ class ClueboardFinder:
 
         # return the ordered coordinates
         return rect
+    
+    def readClueboardandPublish(self):
+        if hasattr(self, 'transformedImg'):
+            type, clueboard_text = read_board(self.transformedImg)
+            publish_clue(type, clueboard_text)
+            print(f"Clueboard read: {type} - {clueboard_text}")
 
 
     def changeClueboard(self):

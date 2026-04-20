@@ -1,0 +1,7 @@
+set(imitation_learning_controller_SETUP_PY_SETUP_MODULE "distutils.core")
+set(imitation_learning_controller_SETUP_PY_VERSION "0.0.0")
+set(imitation_learning_controller_SETUP_PY_SCRIPTS "")
+set(imitation_learning_controller_SETUP_PY_PACKAGES "imitation_learning_controller")
+set(imitation_learning_controller_SETUP_PY_PACKAGE_DIRS "src/imitation_learning_controller")
+set(imitation_learning_controller_SETUP_PY_MODULES "")
+set(imitation_learning_controller_SETUP_PY_MODULE_DIRS "")

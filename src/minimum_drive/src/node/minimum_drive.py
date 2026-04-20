@@ -3,8 +3,10 @@
 import rospy
 from geometry_msgs.msg import Twist
 from std_msgs.msg import String
+from sensor_msgs.msg import Image
 from gazebo_msgs.msg import ModelState
 from gazebo_msgs.srv import SetModelState
+from imitation_learning_controller.call_drive_nn import get_cmd_vel
 
 rospy.init_node('drive_statemachine_controller')
 
@@ -17,7 +19,7 @@ LINE_1 = [0.5, -0.1, 0.05, 0, 0, 0.7071, 0.7071] #yaw = pi/2
 LINE_2 = [-3.85, 0.45, 0.05, 0, 0, 1, 0] # yaw = pi
 LINE_3 = [-4.1, -2.3, 0.05, 0, 0, 0, 1] #yaw = 0
 rate = rospy.Rate(10)
-
+latest_image = None
 
 def clue_publish_callback(clue_input):
   clue = clue_input.data()
@@ -44,7 +46,11 @@ def clue_publish_callback(clue_input):
     state8_start_time = rospy.Time.now()
     state = 8
   elif clue == 7:
-    print("Clue 7 found: Entering State 88")
+    print("Clue 7 found: Entering State 11")
+    state11_start_time = rospy.Time.now()
+    state = 11
+  elif clue == 8:
+    print("Clue 8 found: Entering State 88")
     state88_start_time = rospy.Time.now()
     state = 88
 
@@ -86,6 +92,9 @@ def set_position(position):
         except rospy.ServiceException:
             print ("Service call failed")
 
+def image_callback(data):
+  global latest_image
+  latest_image = data
 
 # State machine overview
 #
@@ -107,6 +116,7 @@ def set_position(position):
 
 # Pre-state machine startup
 sub = rospy.Subscriber('clue_publish_updates', String, clue_publish_callback, queue_size=1)
+sub_cam = rospy.Subscriber('/B1/rrbot/cameraFront/image_raw_front', Image, image_callback, queue_size=1)
 pub_vel = rospy.Publisher('/B1/cmd_vel', Twist, queue_size=1)
 pub_clue = rospy.Publisher('/score_tracker', String, queue_size=1)
 pub_camera = rospy.Publisher('/camera_to_read', String, queue_size=1)
@@ -259,20 +269,33 @@ while not rospy.is_shutdown():
     if elapsed.to_sec() < 0.5:
       move.angular.z = 2
       pub_vel.publish(move)
-      #drive_forward(-DRIVE_SPEED)
     else:
       stop()
 
     if elapsed.to_sec() > 5:
-      print("Clue 7 not found: Entering state 88")
-      state88_start_time = rospy.Time.now()
-      state = 88
+      print("Clue 7 not found: Entering state 11")
+      state11_start_time = rospy.Time.now()
+      state = 11
 
+  # State 11: Line follow up mountain
+  # Exit: Eigth clue published to score tracker (state 88) || 60 seconds passed (state 88)
+  if state == 11:
+    pub_camera.publish('front')
+    elapsed = rospy.Time.now() - state11_start_time
+    cmd_vel = get_cmd_vel(latest_image)
+    move.linear.x = cmd_vel[0]
+    move.angular.z = cmd_vel[1]
+    pub_vel.publish(move)
+
+    if elapsed.to_sec() > 60:
+      print("Clue 8 not found: Entering state 88")
+      state = 88
 
   # State 88: Stop robot and timer
   # Exit: none
   if state == 88:
     stop()
+    rospy.sleep(1)
     pub_clue.publish('AIZCF,beans,-1,letzstop')
     state = 0
 
